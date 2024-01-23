@@ -66,6 +66,8 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\vinim\.gradle\caches
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vinim\.gradle\caches\transforms-3\20597593106a18ad0c5172a0adc8a6f3\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\6610c49835652a00a92d80dc169a62e7\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.daimajia.androidanimations:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\7da1a990ec794d8396fbc40f48880f28\transformed\library-2.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\vinim\.gradle\caches\transforms-3\2cd33fab9ef20ccf4766905397f2141c\transformed\library-2.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\353a4be59c0517722dfad899e2d16395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\71ea93d00123da800df6888b073f8c71\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -330,6 +332,10 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\6610c49835652a00a92d80dc169a62e7\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\6610c49835652a00a92d80dc169a62e7\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [com.daimajia.androidanimations:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\7da1a990ec794d8396fbc40f48880f28\transformed\library-2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.androidanimations:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\7da1a990ec794d8396fbc40f48880f28\transformed\library-2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\vinim\.gradle\caches\transforms-3\2cd33fab9ef20ccf4766905397f2141c\transformed\library-2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\vinim\.gradle\caches\transforms-3\2cd33fab9ef20ccf4766905397f2141c\transformed\library-2.0\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\353a4be59c0517722dfad899e2d16395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\353a4be59c0517722dfad899e2d16395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41

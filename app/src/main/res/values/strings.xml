@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">Compras</string>
     <string name="title_activity_session">SessionActivity</string>
+    <string name="sessao_ask_text">Já tem uma sessão?</string>
+    <string name="session_code">Código</string>
+    <string name="singIn">Entrar</string>
+    <string name="create_text">Criar</string>
+    <string name="imageDescription">image</string>
+    <string name="product_name_ask">Nome do produto:</string>
+    <string name="name_hint">Arroz</string>
+    <string name="qnt_ask">qnt:</string>
+    <string name="one">1</string>
+    <string name="brand">Marca:</string>
+    <string name="brand_hint">Camil\n</string>
+    <string name="add">Adicionar</string>
 
     <string-array name="sujestoes">
 

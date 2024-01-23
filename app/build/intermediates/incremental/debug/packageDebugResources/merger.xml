@@ -156,7 +156,7 @@
         <item>Preservativo</item>
         <item>Lubrificante</item>
 
-    </string-array></file><file path="D:\AppCompras\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
+    </string-array><string name="brand_hint">Camil\n</string><string name="imageDescription">image</string><string name="name_hint">Arroz</string><string name="one">1</string><string name="session_code">Código</string><string name="create_text">Criar</string><string name="add">Adicionar</string><string name="brand">Marca:</string><string name="singIn">Entrar</string><string name="sessao_ask_text">Já tem uma sessão?</string><string name="product_name_ask">Nome do produto:</string><string name="qnt_ask">qnt:</string></file><file path="D:\AppCompras\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style><style name="Theme.Compras" parent="Base.Theme.Compras"/></file><file path="D:\AppCompras\app\src\main\res\values-land\dimens.xml" qualifiers="land"><dimen name="fab_margin">48dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
@@ -167,4 +167,318 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
-    </style></file><file path="D:\AppCompras\app\src\main\res\values-w1240dp\dimens.xml" qualifiers="w1240dp-v13"><dimen name="fab_margin">200dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-w600dp\dimens.xml" qualifiers="w600dp-v13"><dimen name="fab_margin">48dp</dimen></file><file name="backup_rules" path="D:\AppCompras\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="D:\AppCompras\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"><file path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices\values\values.xml" qualifiers=""><string name="firebase_database_url" translatable="false">https://applista-dbf98-default-rtdb.firebaseio.com</string><string name="gcm_defaultSenderId" translatable="false">898642653121</string><string name="google_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_app_id" translatable="false">1:898642653121:android:31822c0a06d2964f1ac940</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_storage_bucket" translatable="false">applista-dbf98.appspot.com</string><string name="project_id" translatable="false">applista-dbf98</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices" generated-set="res-processDebugGoogleServices$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems/></merger>
+    </style></file><file path="D:\AppCompras\app\src\main\res\values-w1240dp\dimens.xml" qualifiers="w1240dp-v13"><dimen name="fab_margin">200dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-w600dp\dimens.xml" qualifiers="w600dp-v13"><dimen name="fab_margin">48dp</dimen></file><file name="backup_rules" path="D:\AppCompras\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="D:\AppCompras\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/><file path="D:\AppCompras\app\src\main\res\values-en\strings.xml" qualifiers="en"><string name="app_name">Shopping</string><string name="title_activity_session">SessionActivity</string><string name="sessao_ask_text">Already have a session?</string><string name="session_code">Code</string><string name="singIn">Sign In</string><string name="create_text">Create</string><string name="imageDescription">image</string><string name="product_name_ask">Product Name:</string><string name="name_hint">Rice</string><string name="qnt_ask">qty:</string><string name="one">1</string><string name="brand">Brand:</string><string name="brand_hint">Camil\n</string><string name="add">Add</string><string-array name="sujestoes">
+
+        <item>Rice</item>
+        <item>Beans</item>
+        <item>Pasta</item>
+        <item>Cooking Oil</item>
+        <item>Salt</item>
+        <item>Sugar</item>
+        <item>Coffee</item>
+        <item>Milk</item>
+        <item>Eggs</item>
+        <item>Wheat Flour</item>
+        <item>Baking Powder</item>
+        <item>Oat Flakes</item>
+        <item>Cereal</item>
+        <item>Chocolate Drink</item>
+        <item>Cheese</item>
+        <item>Ham</item>
+        <item>Chicken</item>
+        <item>Beef</item>
+        <item>Fish</item>
+        <item>Sausages</item>
+        <item>Sliced Bread</item>
+        <item>Butter</item>
+        <item>Jam</item>
+        <item>Ketchup</item>
+        <item>Mustard</item>
+        <item>Mayonnaise</item>
+        <item>Tomato Sauce</item>
+        <item>Corn</item>
+        <item>Chickpeas</item>
+        <item>Canned Lentils</item>
+        <item>Black Beans</item>
+        <item>Soy Sauce</item>
+        <item>Vinegar</item>
+        <item>Brown Rice</item>
+        <item>Corn Flour</item>
+        <item>Condensed Milk</item>
+        <item>Milk Powder</item>
+        <item>Yogurt</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Lettuce</item>
+        <item>Spinach</item>
+        <item>Tomato</item>
+        <item>Cucumber</item>
+        <item>Zucchini</item>
+        <item>Eggplant</item>
+        <item>Apricot</item>
+        <item>Raisins</item>
+        <item>Pickles</item>
+        <item>Pepper</item>
+        <item>Onion</item>
+        <item>Garlic</item>
+        <item>Sweet Potato</item>
+        <item>Avocado</item>
+        <item>Mango</item>
+        <item>Strawberry</item>
+        <item>Watermelon</item>
+        <item>Cantaloupe</item>
+        <item>Baby Carrots</item>
+        <item>Broccoli</item>
+        <item>Cauliflower</item>
+        <item>Olives</item>
+        <item>Peanuts</item>
+        <item>Nuts</item>
+        <item>Cookies</item>
+        <item>Toast</item>
+        <item>Whole Wheat Bread</item>
+        <item>Cakes</item>
+        <item>Filled Cookies</item>
+        <item>Popcorn</item>
+        <item>Chocolate</item>
+        <item>Granola Bars</item>
+        <item>Fruit Juice</item>
+        <item>Sodas</item>
+        <item>Mineral Water</item>
+        <item>Tea</item>
+        <item>Instant Coffee</item>
+        <item>Wine</item>
+        <item>Beer</item>
+        <item>Diet/Light Soda</item>
+        <item>Plant-based Milk</item>
+        <item>Heavy Cream</item>
+        <item>Barbecue Sauce</item>
+        <item>Pesto Sauce</item>
+        <item>Garlic</item>
+        <item>Parsley</item>
+        <item>Chives</item>
+        <item>Pepper</item>
+        <item>Coarse Salt</item>
+        <item>Pepper Sauce</item>
+        <item>Vegan Mayonnaise</item>
+        <item>Capers</item>
+        <item>Fruit Jam</item>
+        <item>Pates (Tuna, Chicken)</item>
+        <item>Lasagna Noodles</item>
+        <item>White Sauce</item>
+        <item>Puff Pastry</item>
+        <item>Pizza Dough</item>
+        <item>Vegetable Broth</item>
+        <item>Canned Soup</item>
+        <item>Nuggets</item>
+        <item>Mozzarella</item>
+        <item>Sausage</item>
+        <item>Cheese Bread</item>
+        <item>Ice Cream</item>
+        <item>Popsicle</item>
+        <item>Pizza</item>
+        <item>Lasagna</item>
+        <item>Hamburger</item>
+        <item>Fries</item>
+        <item>Hazelnut Cream</item>
+        <item>Pudding</item>
+        <item>Gelatin</item>
+        <item>Fermented Milk</item>
+        <item>Cheese Cream</item>
+        <item>Grated Cheese</item>
+        <item>Cream Cheese</item>
+        <item>Granola</item>
+        <item>Vinaigrette</item>
+        <item>Sweet and Sour Sauce</item>
+        <item>Hearts of Palm</item>
+        <item>Ready-made Stuffing</item>
+        <item>Garlic Bread</item>
+        <item>Coconut Milk</item>
+        <item>Tapioca</item>
+        <item>Cocoa Powder</item>
+        <item>Snacks</item>
+        <item>Popcorn</item>
+        <item>Dulce de Leche</item>
+        <item>Rapadura</item>
+        <item>Couscous</item>
+        <item>Molasses</item>
+        <item>Cassava Flour</item>
+        <item>Breadcrumbs</item>
+        <item>Gelatin Powder</item>
+        <item>Soup</item>
+        <item>Vegetarian Sausage</item>
+        <item>Vegetarian Burger</item>
+        <item>Vegetarian Nuggets</item>
+        <item>Gluten-Free Bread</item>
+        <item>Gluten-Free Pasta</item>
+        <item>Gluten-Free Cookies</item>
+        <item>Lactose-Free Milk</item>
+        <item>Lactose-Free Yogurt</item>
+        <item>Lactose-Free Cheese</item>
+        <item>Quail Egg</item>
+        <item>Goat Milk</item>
+        <item>Sheep Milk</item>
+        <item>Coconut Water</item>
+        <item>Energy Drink</item>
+        <item>Dietary Supplement</item>
+        <item>Pet Food</item>
+        <item>Condom</item>
+        <item>Lubricant</item>
+
+    </string-array></file><file path="D:\AppCompras\app\src\main\res\values-es\strings.xml" qualifiers="es"><string name="app_name">Compras</string><string name="title_activity_session">SessionActivity</string><string name="sessao_ask_text">¿Ya tienes una sesión?</string><string name="session_code">Código</string><string name="singIn">Ingresar</string><string name="create_text">Crear</string><string name="imageDescription">imagen</string><string name="product_name_ask">Nombre del producto:</string><string name="name_hint">Arroz</string><string name="qnt_ask">cant:</string><string name="one">1</string><string name="brand">Marca:</string><string name="brand_hint">Camil\n</string><string name="add">Agregar</string><string-array name="sujestoes">
+
+        <item>Arroz</item>
+        <item>Fríjoles</item>
+        <item>Pasta</item>
+        <item>Aceite de cocina</item>
+        <item>Sal</item>
+        <item>Azúcar</item>
+        <item>Café</item>
+        <item>Leche</item>
+        <item>Huevos</item>
+        <item>Harina de trigo</item>
+        <item>Levadura en polvo</item>
+        <item>Avena en copos</item>
+        <item>Cereal</item>
+        <item>Colacao</item>
+        <item>Queso</item>
+        <item>Jamón</item>
+        <item>Pollo</item>
+        <item>Carne de res</item>
+        <item>Pescado</item>
+        <item>Salchichas</item>
+        <item>Pan de molde</item>
+        <item>Mantequilla</item>
+        <item>Mermelada</item>
+        <item>Ketchup</item>
+        <item>Mostaza</item>
+        <item>Mayonesa</item>
+        <item>Salsa de tomate</item>
+        <item>Maíz</item>
+        <item>Garbanzos</item>
+        <item>Lentejas enlatadas</item>
+        <item>Frijoles negros</item>
+        <item>Salsa de soja</item>
+        <item>Vinagre</item>
+        <item>Arroz integral</item>
+        <item>Harina de maíz</item>
+        <item>Leche condensada</item>
+        <item>Leche en polvo</item>
+        <item>Yogur</item>
+        <item>Frutas</item>
+        <item>Vegetales</item>
+        <item>Lechuga</item>
+        <item>Espinacas</item>
+        <item>Tomate</item>
+        <item>Pepino</item>
+        <item>Calabacín</item>
+        <item>Berenjena</item>
+        <item>Damasco</item>
+        <item>Pasas</item>
+        <item>Pepinillos</item>
+        <item>Pimienta</item>
+        <item>Cebolla</item>
+        <item>Ajo</item>
+        <item>Batata dulce</item>
+        <item>Palta</item>
+        <item>Mango</item>
+        <item>Fresas</item>
+        <item>Sandía</item>
+        <item>Melón</item>
+        <item>Zanahorias baby</item>
+        <item>Brócoli</item>
+        <item>Coliflor</item>
+        <item>Aceitunas</item>
+        <item>Cacahuetes</item>
+        <item>Nueces</item>
+        <item>Galletas</item>
+        <item>Tostadas</item>
+        <item>Pan integral</item>
+        <item>Tortas</item>
+        <item>Galletas rellenas</item>
+        <item>Palomitas de maíz</item>
+        <item>Chocolate</item>
+        <item>Barras de cereales</item>
+        <item>Jugo de frutas</item>
+        <item>Refrescos</item>
+        <item>Agua mineral</item>
+        <item>Té</item>
+        <item>Café soluble</item>
+        <item>Vino</item>
+        <item>Cerveza</item>
+        <item>Refresco diet/light</item>
+        <item>Leche vegetal</item>
+        <item>Crema de leche</item>
+        <item>Salsa barbacoa</item>
+        <item>Salsa pesto</item>
+        <item>Ajo</item>
+        <item>Perejil</item>
+        <item>Cebollín</item>
+        <item>Pimienta</item>
+        <item>Sal gruesa</item>
+        <item>Salsa de pimienta</item>
+        <item>Mayonesa vegana</item>
+        <item>Alcaparras</item>
+        <item>Mermelada de frutas</item>
+        <item>Patés (atún, pollo)</item>
+        <item>Masa para lasaña</item>
+        <item>Salsa blanca</item>
+        <item>Masa hojaldrada</item>
+        <item>Masa para pizza</item>
+        <item>Caldo de verduras</item>
+        <item>Sopa enlatada</item>
+        <item>Nuggets</item>
+        <item>Mozzarella</item>
+        <item>Salchicha</item>
+        <item>Pão de queijo</item>
+        <item>Helado</item>
+        <item>Paleta</item>
+        <item>Pizza</item>
+        <item>Lasaña</item>
+        <item>Hamburguesa</item>
+        <item>Papas fritas</item>
+        <item>Crema de avellanas</item>
+        <item>Pudín</item>
+        <item>Gelatina</item>
+        <item>Yogur fermentado</item>
+        <item>Crema de queso</item>
+        <item>Queso rallado</item>
+        <item>Requesón</item>
+        <item>Granola</item>
+        <item>Ensalada vinagreta</item>
+        <item>Salsa agridulce</item>
+        <item>Palmito</item>
+        <item>Harina de maíz lista</item>
+        <item>Pan de ajo</item>
+        <item>Leche de coco</item>
+        <item>Tapioca</item>
+        <item>Chocolate en polvo</item>
+        <item>Aperitivos</item>
+        <item>Palomitas de maíz</item>
+        <item>Dulce de leche</item>
+        <item>Rapadura</item>
+        <item>Cuscús</item>
+        <item>Melaza</item>
+        <item>Harina de mandioca</item>
+        <item>Pan rallado</item>
+        <item>Gelatina en polvo</item>
+        <item>Sopa</item>
+        <item>Salchicha vegetal</item>
+        <item>Hamburguesa vegetariana</item>
+        <item>Nuggets vegetales</item>
+        <item>Pan integral sin gluten</item>
+        <item>Pasta sin gluten</item>
+        <item>Galletas sin gluten</item>
+        <item>Leche sin lactosa</item>
+        <item>Yogur sin lactosa</item>
+        <item>Queso sin lactosa</item>
+        <item>Huevo de codorniz</item>
+        <item>Leche de cabra</item>
+        <item>Leche de oveja</item>
+        <item>Agua de coco</item>
+        <item>Energético</item>
+        <item>Suplemento alimenticio</item>
+        <item>Comida para mascotas</item>
+        <item>Preservativo</item>
+        <item>Lubricante</item>
+
+    </string-array></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"><file path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices\values\values.xml" qualifiers=""><string name="firebase_database_url" translatable="false">https://applista-dbf98-default-rtdb.firebaseio.com</string><string name="gcm_defaultSenderId" translatable="false">898642653121</string><string name="google_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_app_id" translatable="false">1:898642653121:android:31822c0a06d2964f1ac940</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_storage_bucket" translatable="false">applista-dbf98.appspot.com</string><string name="project_id" translatable="false">applista-dbf98</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices" generated-set="res-processDebugGoogleServices$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems/></merger>

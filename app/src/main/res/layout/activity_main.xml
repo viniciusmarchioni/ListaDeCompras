@@ -13,7 +13,7 @@
         android:layout_above="@+id/codigo"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
-        android:text="Já tem uma sessão?  "
+        android:text="@string/sessao_ask_text"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/edittext_rounded_corners"
-        android:hint="Código"
+        android:hint="@string/session_code"
         android:maxLength="10"
         android:maxLines="1"
         android:minWidth="120dp"
@@ -50,7 +50,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
-        android:text="Entrar"
+        android:text="@string/singIn"
         android:textColor="@color/tema" />
 
     <Button
@@ -61,7 +61,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
-        android:text="Criar"
+        android:text="@string/create_text"
         android:textColor="@color/tema" />
 
 </RelativeLayout>

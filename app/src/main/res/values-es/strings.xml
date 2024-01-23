@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compras</string>
+    <string name="title_activity_session">SessionActivity</string>
+    <string name="sessao_ask_text">¿Ya tienes una sesión?</string>
+    <string name="session_code">Código</string>
+    <string name="singIn">Ingresar</string>
+    <string name="create_text">Crear</string>
+    <string name="imageDescription">imagen</string>
+    <string name="product_name_ask">Nombre del producto:</string>
+    <string name="name_hint">Arroz</string>
+    <string name="qnt_ask">cant:</string>
+    <string name="one">1</string>
+    <string name="brand">Marca:</string>
+    <string name="brand_hint">Camil\n</string>
+    <string name="add">Agregar</string>
+
+    <string-array name="sujestoes">
+
+        <item>Arroz</item>
+        <item>Fríjoles</item>
+        <item>Pasta</item>
+        <item>Aceite de cocina</item>
+        <item>Sal</item>
+        <item>Azúcar</item>
+        <item>Café</item>
+        <item>Leche</item>
+        <item>Huevos</item>
+        <item>Harina de trigo</item>
+        <item>Levadura en polvo</item>
+        <item>Avena en copos</item>
+        <item>Cereal</item>
+        <item>Colacao</item>
+        <item>Queso</item>
+        <item>Jamón</item>
+        <item>Pollo</item>
+        <item>Carne de res</item>
+        <item>Pescado</item>
+        <item>Salchichas</item>
+        <item>Pan de molde</item>
+        <item>Mantequilla</item>
+        <item>Mermelada</item>
+        <item>Ketchup</item>
+        <item>Mostaza</item>
+        <item>Mayonesa</item>
+        <item>Salsa de tomate</item>
+        <item>Maíz</item>
+        <item>Garbanzos</item>
+        <item>Lentejas enlatadas</item>
+        <item>Frijoles negros</item>
+        <item>Salsa de soja</item>
+        <item>Vinagre</item>
+        <item>Arroz integral</item>
+        <item>Harina de maíz</item>
+        <item>Leche condensada</item>
+        <item>Leche en polvo</item>
+        <item>Yogur</item>
+        <item>Frutas</item>
+        <item>Vegetales</item>
+        <item>Lechuga</item>
+        <item>Espinacas</item>
+        <item>Tomate</item>
+        <item>Pepino</item>
+        <item>Calabacín</item>
+        <item>Berenjena</item>
+        <item>Damasco</item>
+        <item>Pasas</item>
+        <item>Pepinillos</item>
+        <item>Pimienta</item>
+        <item>Cebolla</item>
+        <item>Ajo</item>
+        <item>Batata dulce</item>
+        <item>Palta</item>
+        <item>Mango</item>
+        <item>Fresas</item>
+        <item>Sandía</item>
+        <item>Melón</item>
+        <item>Zanahorias baby</item>
+        <item>Brócoli</item>
+        <item>Coliflor</item>
+        <item>Aceitunas</item>
+        <item>Cacahuetes</item>
+        <item>Nueces</item>
+        <item>Galletas</item>
+        <item>Tostadas</item>
+        <item>Pan integral</item>
+        <item>Tortas</item>
+        <item>Galletas rellenas</item>
+        <item>Palomitas de maíz</item>
+        <item>Chocolate</item>
+        <item>Barras de cereales</item>
+        <item>Jugo de frutas</item>
+        <item>Refrescos</item>
+        <item>Agua mineral</item>
+        <item>Té</item>
+        <item>Café soluble</item>
+        <item>Vino</item>
+        <item>Cerveza</item>
+        <item>Refresco diet/light</item>
+        <item>Leche vegetal</item>
+        <item>Crema de leche</item>
+        <item>Salsa barbacoa</item>
+        <item>Salsa pesto</item>
+        <item>Ajo</item>
+        <item>Perejil</item>
+        <item>Cebollín</item>
+        <item>Pimienta</item>
+        <item>Sal gruesa</item>
+        <item>Salsa de pimienta</item>
+        <item>Mayonesa vegana</item>
+        <item>Alcaparras</item>
+        <item>Mermelada de frutas</item>
+        <item>Patés (atún, pollo)</item>
+        <item>Masa para lasaña</item>
+        <item>Salsa blanca</item>
+        <item>Masa hojaldrada</item>
+        <item>Masa para pizza</item>
+        <item>Caldo de verduras</item>
+        <item>Sopa enlatada</item>
+        <item>Nuggets</item>
+        <item>Mozzarella</item>
+        <item>Salchicha</item>
+        <item>Pão de queijo</item>
+        <item>Helado</item>
+        <item>Paleta</item>
+        <item>Pizza</item>
+        <item>Lasaña</item>
+        <item>Hamburguesa</item>
+        <item>Papas fritas</item>
+        <item>Crema de avellanas</item>
+        <item>Pudín</item>
+        <item>Gelatina</item>
+        <item>Yogur fermentado</item>
+        <item>Crema de queso</item>
+        <item>Queso rallado</item>
+        <item>Requesón</item>
+        <item>Granola</item>
+        <item>Ensalada vinagreta</item>
+        <item>Salsa agridulce</item>
+        <item>Palmito</item>
+        <item>Harina de maíz lista</item>
+        <item>Pan de ajo</item>
+        <item>Leche de coco</item>
+        <item>Tapioca</item>
+        <item>Chocolate en polvo</item>
+        <item>Aperitivos</item>
+        <item>Palomitas de maíz</item>
+        <item>Dulce de leche</item>
+        <item>Rapadura</item>
+        <item>Cuscús</item>
+        <item>Melaza</item>
+        <item>Harina de mandioca</item>
+        <item>Pan rallado</item>
+        <item>Gelatina en polvo</item>
+        <item>Sopa</item>
+        <item>Salchicha vegetal</item>
+        <item>Hamburguesa vegetariana</item>
+        <item>Nuggets vegetales</item>
+        <item>Pan integral sin gluten</item>
+        <item>Pasta sin gluten</item>
+        <item>Galletas sin gluten</item>
+        <item>Leche sin lactosa</item>
+        <item>Yogur sin lactosa</item>
+        <item>Queso sin lactosa</item>
+        <item>Huevo de codorniz</item>
+        <item>Leche de cabra</item>
+        <item>Leche de oveja</item>
+        <item>Agua de coco</item>
+        <item>Energético</item>
+        <item>Suplemento alimenticio</item>
+        <item>Comida para mascotas</item>
+        <item>Preservativo</item>
+        <item>Lubricante</item>
+
+    </string-array>
+
+</resources>

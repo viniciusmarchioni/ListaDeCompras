@@ -73,14 +73,19 @@ class SessionActivity : AppCompatActivity() {
                                     dado.getValue(String::class.java) // Obtém o valor do dado
 
                                 //verifica o nome da chave para adicionar no lugar certo no obj
-                                if (dado.key == "nome") {
-                                    obj.nome = valorDoDado
-                                } else if (dado.key == "qnt") {
-                                    obj.qnt = valorDoDado
-                                } else if (dado.key == "notation") {
-                                    obj.notation = valorDoDado
-                                } else if (dado.key == "marca") {
-                                    obj.marca = valorDoDado
+                                when (dado.key) {
+                                    "nome" -> {
+                                        obj.nome = valorDoDado
+                                    }
+                                    "qnt" -> {
+                                        obj.qnt = valorDoDado
+                                    }
+                                    "notation" -> {
+                                        obj.notation = valorDoDado
+                                    }
+                                    "marca" -> {
+                                        obj.marca = valorDoDado
+                                    }
                                 }
                                 //vai para o próximo filho(produto) se existir...
                             }
@@ -129,7 +134,7 @@ class SessionActivity : AppCompatActivity() {
 
         //Spinner Config
         spinner.adapter =
-            ArrayAdapter<String>(
+            ArrayAdapter(
                 this,
                 android.R.layout.simple_list_item_1,
                 arrayOf("UNID", "kg", "g", "L", "ml")//adicionando opções ao spinner

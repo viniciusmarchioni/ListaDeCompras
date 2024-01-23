@@ -1,26 +1,22 @@
 package com.example.compras
 
-import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
-import android.widget.RelativeLayout
 import android.widget.TextView
-import androidx.core.text.set
 import androidx.core.view.isVisible
+import com.daimajia.androidanimations.library.Techniques
+import com.daimajia.androidanimations.library.YoYo
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.google.firebase.ktx.Firebase
 import java.lang.Exception
-import kotlin.math.log
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,10 +32,10 @@ class MainActivity : AppCompatActivity() {
 
 
         try {
-            val pref:SharedPreferences = getSharedPreferences("keys-xml", MODE_PRIVATE)
-            editCode.setText(pref.getString("lastCode",""))
+            val pref: SharedPreferences = getSharedPreferences("keys-xml", MODE_PRIVATE)
+            editCode.setText(pref.getString("lastCode", ""))
 
-        }catch (_:Exception){
+        } catch (_: Exception) {
         }
 
 
@@ -50,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonEntrar.setOnClickListener {
 
-            if (editCode.text.toString().length == 0) {
+            if (editCode.text.toString().isEmpty()) {
                 val intent = Intent(this@MainActivity, SessionActivity::class.java)
                 intent.putExtra("code", "LAJSIDHSUGA")
 
@@ -58,6 +54,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (editCode.text.toString().length < 10) {
+                YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                 return@setOnClickListener
             }
 
@@ -72,10 +69,10 @@ class MainActivity : AppCompatActivity() {
                         intent.putExtra("code", editCode.text.toString())
 
 
-                        val pref:SharedPreferences = getSharedPreferences("keys-xml", MODE_PRIVATE)
-                        val editor:SharedPreferences.Editor = pref.edit()
+                        val pref: SharedPreferences = getSharedPreferences("keys-xml", MODE_PRIVATE)
+                        val editor: SharedPreferences.Editor = pref.edit()
 
-                        editor.putString("lastCode",editCode.text.toString())
+                        editor.putString("lastCode", editCode.text.toString())
                         editor.apply()
 
 
@@ -85,12 +82,14 @@ class MainActivity : AppCompatActivity() {
 
 
                     } else {
-                        Log.d("TAG", "Não existe") //animação
+
+                        YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
+
                     }
                 }
 
                 override fun onCancelled(error: DatabaseError) {
-
+                    YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                 }
 
             })

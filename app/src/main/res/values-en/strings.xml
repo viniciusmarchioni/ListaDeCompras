@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="title_activity_session">SessionActivity</string>
+    <string name="sessao_ask_text">Already have a session?</string>
+    <string name="session_code">Code</string>
+    <string name="singIn">Sign In</string>
+    <string name="create_text">Create</string>
+    <string name="imageDescription">image</string>
+    <string name="product_name_ask">Product Name:</string>
+    <string name="name_hint">Rice</string>
+    <string name="qnt_ask">qty:</string>
+    <string name="one">1</string>
+    <string name="brand">Brand:</string>
+    <string name="brand_hint">Camil\n</string>
+    <string name="add">Add</string>
+
+    <string-array name="sujestoes">
+
+        <item>Rice</item>
+        <item>Beans</item>
+        <item>Pasta</item>
+        <item>Cooking Oil</item>
+        <item>Salt</item>
+        <item>Sugar</item>
+        <item>Coffee</item>
+        <item>Milk</item>
+        <item>Eggs</item>
+        <item>Wheat Flour</item>
+        <item>Baking Powder</item>
+        <item>Oat Flakes</item>
+        <item>Cereal</item>
+        <item>Chocolate Drink</item>
+        <item>Cheese</item>
+        <item>Ham</item>
+        <item>Chicken</item>
+        <item>Beef</item>
+        <item>Fish</item>
+        <item>Sausages</item>
+        <item>Sliced Bread</item>
+        <item>Butter</item>
+        <item>Jam</item>
+        <item>Ketchup</item>
+        <item>Mustard</item>
+        <item>Mayonnaise</item>
+        <item>Tomato Sauce</item>
+        <item>Corn</item>
+        <item>Chickpeas</item>
+        <item>Canned Lentils</item>
+        <item>Black Beans</item>
+        <item>Soy Sauce</item>
+        <item>Vinegar</item>
+        <item>Brown Rice</item>
+        <item>Corn Flour</item>
+        <item>Condensed Milk</item>
+        <item>Milk Powder</item>
+        <item>Yogurt</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Lettuce</item>
+        <item>Spinach</item>
+        <item>Tomato</item>
+        <item>Cucumber</item>
+        <item>Zucchini</item>
+        <item>Eggplant</item>
+        <item>Apricot</item>
+        <item>Raisins</item>
+        <item>Pickles</item>
+        <item>Pepper</item>
+        <item>Onion</item>
+        <item>Garlic</item>
+        <item>Sweet Potato</item>
+        <item>Avocado</item>
+        <item>Mango</item>
+        <item>Strawberry</item>
+        <item>Watermelon</item>
+        <item>Cantaloupe</item>
+        <item>Baby Carrots</item>
+        <item>Broccoli</item>
+        <item>Cauliflower</item>
+        <item>Olives</item>
+        <item>Peanuts</item>
+        <item>Nuts</item>
+        <item>Cookies</item>
+        <item>Toast</item>
+        <item>Whole Wheat Bread</item>
+        <item>Cakes</item>
+        <item>Filled Cookies</item>
+        <item>Popcorn</item>
+        <item>Chocolate</item>
+        <item>Granola Bars</item>
+        <item>Fruit Juice</item>
+        <item>Sodas</item>
+        <item>Mineral Water</item>
+        <item>Tea</item>
+        <item>Instant Coffee</item>
+        <item>Wine</item>
+        <item>Beer</item>
+        <item>Diet/Light Soda</item>
+        <item>Plant-based Milk</item>
+        <item>Heavy Cream</item>
+        <item>Barbecue Sauce</item>
+        <item>Pesto Sauce</item>
+        <item>Garlic</item>
+        <item>Parsley</item>
+        <item>Chives</item>
+        <item>Pepper</item>
+        <item>Coarse Salt</item>
+        <item>Pepper Sauce</item>
+        <item>Vegan Mayonnaise</item>
+        <item>Capers</item>
+        <item>Fruit Jam</item>
+        <item>Pates (Tuna, Chicken)</item>
+        <item>Lasagna Noodles</item>
+        <item>White Sauce</item>
+        <item>Puff Pastry</item>
+        <item>Pizza Dough</item>
+        <item>Vegetable Broth</item>
+        <item>Canned Soup</item>
+        <item>Nuggets</item>
+        <item>Mozzarella</item>
+        <item>Sausage</item>
+        <item>Cheese Bread</item>
+        <item>Ice Cream</item>
+        <item>Popsicle</item>
+        <item>Pizza</item>
+        <item>Lasagna</item>
+        <item>Hamburger</item>
+        <item>Fries</item>
+        <item>Hazelnut Cream</item>
+        <item>Pudding</item>
+        <item>Gelatin</item>
+        <item>Fermented Milk</item>
+        <item>Cheese Cream</item>
+        <item>Grated Cheese</item>
+        <item>Cream Cheese</item>
+        <item>Granola</item>
+        <item>Vinaigrette</item>
+        <item>Sweet and Sour Sauce</item>
+        <item>Hearts of Palm</item>
+        <item>Ready-made Stuffing</item>
+        <item>Garlic Bread</item>
+        <item>Coconut Milk</item>
+        <item>Tapioca</item>
+        <item>Cocoa Powder</item>
+        <item>Snacks</item>
+        <item>Popcorn</item>
+        <item>Dulce de Leche</item>
+        <item>Rapadura</item>
+        <item>Couscous</item>
+        <item>Molasses</item>
+        <item>Cassava Flour</item>
+        <item>Breadcrumbs</item>
+        <item>Gelatin Powder</item>
+        <item>Soup</item>
+        <item>Vegetarian Sausage</item>
+        <item>Vegetarian Burger</item>
+        <item>Vegetarian Nuggets</item>
+        <item>Gluten-Free Bread</item>
+        <item>Gluten-Free Pasta</item>
+        <item>Gluten-Free Cookies</item>
+        <item>Lactose-Free Milk</item>
+        <item>Lactose-Free Yogurt</item>
+        <item>Lactose-Free Cheese</item>
+        <item>Quail Egg</item>
+        <item>Goat Milk</item>
+        <item>Sheep Milk</item>
+        <item>Coconut Water</item>
+        <item>Energy Drink</item>
+        <item>Dietary Supplement</item>
+        <item>Pet Food</item>
+        <item>Condom</item>
+        <item>Lubricant</item>
+
+    </string-array>
+
+</resources>
