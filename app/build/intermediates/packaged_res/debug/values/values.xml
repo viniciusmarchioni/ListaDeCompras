@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sujestoes">
+
+        <item>Arroz</item>
+        <item>Feijão</item>
+        <item>Macarrão</item>
+        <item>Óleo de cozinha</item>
+        <item>Sal</item>
+        <item>Açúcar</item>
+        <item>Café</item>
+        <item>Leite</item>
+        <item>Ovos</item>
+        <item>Farinha de trigo</item>
+        <item>Fermento em pó</item>
+        <item>Flocos de aveia</item>
+        <item>Cereal</item>
+        <item>Achocolatado</item>
+        <item>Queijo</item>
+        <item>Presunto</item>
+        <item>Frango</item>
+        <item>Carne bovina</item>
+        <item>Peixe</item>
+        <item>Salsichas</item>
+        <item>Pão de forma</item>
+        <item>Manteiga</item>
+        <item>Geléia</item>
+        <item>Ketchup</item>
+        <item>Mustarda</item>
+        <item>Maionese</item>
+        <item>Molho de tomate</item>
+        <item>Milho</item>
+        <item>Grão-de-bico</item>
+        <item>Lentilhas enlatadas</item>
+        <item>Feijão preto</item>
+        <item>Molho de soja</item>
+        <item>Vinagre</item>
+        <item>Arroz integral</item>
+        <item>Farinha de milho</item>
+        <item>Leite condensado</item>
+        <item>Leite em pó</item>
+        <item>Iogurte</item>
+        <item>Frutas</item>
+        <item>Legumes</item>
+        <item>Alface</item>
+        <item>Espinafre</item>
+        <item>Tomate</item>
+        <item>Pepino</item>
+        <item>Abobrinha</item>
+        <item>Berinjela</item>
+        <item>Damasco</item>
+        <item>Passas</item>
+        <item>Picles</item>
+        <item>Pimenta</item>
+        <item>Cebola</item>
+        <item>Alho</item>
+        <item>Batata-doce</item>
+        <item>Abacate</item>
+        <item>Manga</item>
+        <item>Morango</item>
+        <item>Melancia</item>
+        <item>Melão</item>
+        <item>Cenoura baby</item>
+        <item>Brócolis</item>
+        <item>Couve-flor</item>
+        <item>Azeitonas</item>
+        <item>Amendoim</item>
+        <item>Castanhas</item>
+        <item>Bolachas</item>
+        <item>Torradas</item>
+        <item>Pão integral</item>
+        <item>Bolos</item>
+        <item>Biscoitos recheados</item>
+        <item>Pipoca</item>
+        <item>Chocolate</item>
+        <item>Barras de cereal</item>
+        <item>Suco de frutas</item>
+        <item>Refrigerantes</item>
+        <item>Água mineral</item>
+        <item>Chá</item>
+        <item>Café solúvel</item>
+        <item>Vinho</item>
+        <item>Cerveja</item>
+        <item>Refrigerante diet/light</item>
+        <item>Leite vegetal</item>
+        <item>Creme de leite</item>
+        <item>Molho barbecue</item>
+        <item>Molho pesto</item>
+        <item>Alho</item>
+        <item>Salcinha</item>
+        <item>Cebolinha</item>
+        <item>Pimenta</item>
+        <item>Sal grosso</item>
+        <item>Molho de pimenta</item>
+        <item>Maionese vegana</item>
+        <item>Alcaparras</item>
+        <item>Geleia de frutas</item>
+        <item>Patês (atum, frango)</item>
+        <item>Massa para lasanha</item>
+        <item>Molho branco</item>
+        <item>Massa folhada</item>
+        <item>Massa para pizza</item>
+        <item>Caldo de legumes</item>
+        <item>Sopa enlatada</item>
+        <item>Nuggets</item>
+        <item>Muçarela</item>
+        <item>Linguiça</item>
+        <item>Pão de queijo</item>
+        <item>Sorvete</item>
+        <item>Picolé</item>
+        <item>Pizza</item>
+        <item>Lasanha</item>
+        <item>Hambúrguer</item>
+        <item>Batata frita</item>
+        <item>Creme de avelã</item>
+        <item>Pudim</item>
+        <item>Gelatina</item>
+        <item>Leite fermentado</item>
+        <item>Creme de queijo</item>
+        <item>Queijo ralado</item>
+        <item>Requeijão</item>
+        <item>Granola</item>
+        <item>Vinagrete</item>
+        <item>Molho agridoce</item>
+        <item>Palmito</item>
+        <item>Farofa pronta</item>
+        <item>Pão de alho</item>
+        <item>Leite de coco</item>
+        <item>Tapioca</item>
+        <item>Chocolate em pó</item>
+        <item>Salgadinhos</item>
+        <item>Pipoca</item>
+        <item>Doce de leite</item>
+        <item>Rapadura</item>
+        <item>Cuscuz</item>
+        <item>Melaço</item>
+        <item>Farinha de mandioca</item>
+        <item>Farinha de rosca</item>
+        <item>Gelatina em pó</item>
+        <item>Sopa</item>
+        <item>Salsicha vegetal</item>
+        <item>Hambúrguer vegetariano</item>
+        <item>Nuggets vegetais</item>
+        <item>Pão integral sem glúten</item>
+        <item>Macarrão sem glúten</item>
+        <item>Bolacha sem glúten</item>
+        <item>Leite sem lactose</item>
+        <item>Iogurte sem lactose</item>
+        <item>Queijo sem lactose</item>
+        <item>Ovo de codorna</item>
+        <item>Leite de cabra</item>
+        <item>Leite de ovelha</item>
+        <item>Água de coco</item>
+        <item>Energético</item>
+        <item>Suplemento alimentar</item>
+        <item>Comida para animais de estimação</item>
+        <item>Preservativo</item>
+        <item>Lubrificante</item>
+
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="tema">#FFAD33</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="app_name">Compras</string>
+    <string name="firebase_database_url" translatable="false">https://applista-dbf98-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">898642653121</string>
+    <string name="google_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string>
+    <string name="google_app_id" translatable="false">1:898642653121:android:31822c0a06d2964f1ac940</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string>
+    <string name="google_storage_bucket" translatable="false">applista-dbf98.appspot.com</string>
+    <string name="project_id" translatable="false">applista-dbf98</string>
+    <string name="title_activity_session">SessionActivity</string>
+    <style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Compras" parent="Base.Theme.Compras"/>
+</resources>
