@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tema"
+    android:theme="@style/Base.Theme.Compras"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,6 +16,7 @@
         android:layout_marginBottom="40dp"
         android:text="@string/sessao_ask_text"
         android:textColor="@color/white"
+        android:clickable="false"
         android:textSize="20sp" />
 
     <ImageButton

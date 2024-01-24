@@ -159,6 +159,8 @@
 
     </string-array>
     <color name="black">#FF000000</color>
+    <color name="blue">#3999E3</color>
+    <color name="red">#DD1B1B</color>
     <color name="tema">#FFAD33</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
@@ -186,6 +188,8 @@
     <style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+        <item name="android:statusBarColor">@color/tema</item>
+        <item name="android:navigationBarColor">@color/tema</item>
+
     </style>
-    <style name="Theme.Compras" parent="Base.Theme.Compras"/>
 </resources>

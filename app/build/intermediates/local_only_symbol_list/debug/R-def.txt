@@ -2,6 +2,8 @@ R_DEF: Internal format may change without notice
 local
 array sujestoes
 color black
+color blue
+color red
 color tema
 color white
 dimen fab_margin

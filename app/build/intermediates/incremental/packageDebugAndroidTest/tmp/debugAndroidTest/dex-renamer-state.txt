@@ -1,4 +1,4 @@
-#Sun Jan 21 17:38:49 BRT 2024
+#Tue Jan 23 19:55:36 BRT 2024
 base.0=D\:\\AppCompras\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=D\:\\AppCompras\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=D\:\\AppCompras\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\3\\classes.dex

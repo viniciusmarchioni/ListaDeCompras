@@ -5,6 +5,15 @@ INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml:2:1-32:12
 INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml:2:1-32:12
 INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:8.1.3] C:\Users\vinim\.gradle\caches\transforms-3\b5b60950100621d891f7651fc6218154\transformed\viewbinding-8.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\cbec43951492df43272c131151ee29a6\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\8d6fc0745a45123b145e29a72ed887c1\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\5bf81cdf439c1135bf9d0e31e7e5ce86\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\d8204334783fdccf6cd24bfc3b19bf13\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\6133f51d241e1eddd385931c2489e9f5\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\6e1c93a4f4a045e1566b32e753f89156\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\3d4be87ea5821953ef08393a4c64b664\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\556a0d91174d978830b3fc514b644f65\transformed\navigation-ui-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vinim\.gradle\caches\transforms-3\351bf483d82af561c68216189a08a8df\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\vinim\.gradle\caches\transforms-3\99e931e8f271f52d50f2fd2185effb7c\transformed\firebase-database-20.3.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\vinim\.gradle\caches\transforms-3\68481e3df1e1a1a8c3099929c3ec879e\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\vinim\.gradle\caches\transforms-3\eb687283355c93f03e026de395a4c167\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:17:1-43:12
@@ -15,10 +24,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\vinim\.gradle\caches\transforms-3\886b14d38af004bf1eb98eb9b1e6d40e\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\e02e877e572a28cfee96d0fc0dde6116\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\c0f0caa8cfd712885aec1e6b5d20f256\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\cd562edf58a500f0d7efd4c74dc1b759\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\0259c14fd37981978dd12e60abad780c\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\aa6a83f3616898d376ea40b65475cfce\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vinim\.gradle\caches\transforms-3\305346e0a76006890c335bfa693db8f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.tsuryo:Swipeable-RecyclerView:1.1] C:\Users\vinim\.gradle\caches\transforms-3\6e648e3ede520c094e62cbe588eef443\transformed\Swipeable-RecyclerView-1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\vinim\.gradle\caches\transforms-3\9a139ee528be1f47d2de7a4fe42b7fb0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\vinim\.gradle\caches\transforms-3\780f89922e0d0767818abc2cdc44d8e0\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\d075d08aa42a4d42d3de50526d750a7e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -35,57 +42,52 @@ MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Us
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vinim\.gradle\caches\transforms-3\dbfeb1daf1e8e3e3b9c6d5717256a35a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vinim\.gradle\caches\transforms-3\f444afcd9664d09297bc390ddb2b26a5\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\29553c9f110e156e273899650dfb8eab\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\9156e3dbd3a3698e5c2ccc92b90a5656\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\vinim\.gradle\caches\transforms-3\512fd20180873409fed1a0d5b1fc9723\transformed\fragment-ktx-1.5.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\vinim\.gradle\caches\transforms-3\b7920a4ba99f0cb4897c2b3dd7dbae7c\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\86d9e64a1811864c6631d82b701ed73d\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\f77ad8ab1f37db50dc7971fd184560c0\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\vinim\.gradle\caches\transforms-3\52287dc9aae582db078e5eddee56b88c\transformed\activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\vinim\.gradle\caches\transforms-3\62b42ac756feb1843f1ebe9d7b64323a\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\vinim\.gradle\caches\transforms-3\33f8891ccd3329a45c91aaba7c0c1782\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\vinim\.gradle\caches\transforms-3\c49d5bca8072abe61f2178b71440e979\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\a819f5c3da98e5dfe98a3e2242fd958a\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\6d6dbd62675fbd0f0a60ac602630077d\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\866ef9bb8008de243851801a11fc7225\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\1542d65401bca55d2605874f1a920584\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\e57e4b00b1024b5a893422313cdc0177\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\ddc169153a669870f6e536c787408487\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\03b9224898075f2aede244f60976d618\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\3dd5e93026cdfad68c17caaca2ed4abb\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\42b9d3ca0c9973095c554c9f01160c65\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\2c3069d380b93dfba9575710ca06fe48\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\805f6d3be87190c01d6bfd8c9821b092\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\17ddd1b913323dd9e3ea33ee3bdbcccc\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vinim\.gradle\caches\transforms-3\3d8097bf111bca6671fc9df07c5c21aa\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\27264d08bd4753277804ce6383551f21\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\3c330747a048f221de1294824785f0b4\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\b7525950646dc7f5a201791672b34687\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8fa3ef23d7d10685638b7ff9a240155d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8e4b1f53fea83a360fd1cdffe098cb39\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\2e5fa8f1b0a0492133ec5445b17acc95\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\e05b3ff14a0830b06fdd07e0455c57d2\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\17ddd1b913323dd9e3ea33ee3bdbcccc\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\26e66f614a256dbb413e1f34fba3e5b0\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\5a9c9bfee7cce5e03401868324451213\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vinim\.gradle\caches\transforms-3\20597593106a18ad0c5172a0adc8a6f3\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\6610c49835652a00a92d80dc169a62e7\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\699748786e0b63f64c8edcb375955588\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\87efa43214e1601218f6abfc086da072\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\3113d1086a2d9a0d06ee1cd2bae5d05d\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\ed73bd81f12cd3013048c3470f3ec576\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\bb926abade113c1ca90ff0da26639e1c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vinim\.gradle\caches\transforms-3\ea7a0534f5f898d125266be501db6091\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\8799f5ac8a977b1c38375ebfced939c2\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\831e23b3bcfd40741058d8c487bf9551\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\ca39d464e29a65d0a6b1b5a76872f775\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.daimajia.androidanimations:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\7da1a990ec794d8396fbc40f48880f28\transformed\library-2.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.daimajia.easing:library:2.0] C:\Users\vinim\.gradle\caches\transforms-3\2cd33fab9ef20ccf4766905397f2141c\transformed\library-2.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.daimajia.easing:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\887ef81fc1b7d998622a6d186de221d4\transformed\library-2.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\353a4be59c0517722dfad899e2d16395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\71ea93d00123da800df6888b073f8c71\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\b3171284e714fe2aa40ffb0db541a544\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\23264448849bb5504f22e502960b35dd\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\7c72adffbef8f04864daf2e6ce0ddff3\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\c78c6da76e4cdd75775528daf2773682\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\147644c77ddbfc74178da2f89b3e2292\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\5008e4c0ff17c0fee96ba4b0d11dd7e7\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vinim\.gradle\caches\transforms-3\3adc2d97a31469b1ed197db26267135c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\9f085e5c423daef131ab8b525bcbb2b2\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\b2d406d10220fb83493c5af14e4aa052\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vinim\.gradle\caches\transforms-3\386cb203618781665b04f3cebfceb27d\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\vinim\.gradle\caches\transforms-3\dcb2bb8f475822ae11c320590f93f77b\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\c78c6da76e4cdd75775528daf2773682\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\48e39c59bba112707447e40c1c488a60\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\23d68c45c0937b00c456f2cb7f0b50d7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\dd3f28e06f2c5c1f4005140efb1bc1ff\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vinim\.gradle\caches\transforms-3\365000d58927721121fa287f0250d60e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\3dbe92e61da44829fc7bb5ba692a1e3b\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml
@@ -100,6 +102,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vinim\.
 application
 ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:5:5-30:19
 INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml:5:5-30:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vinim\.gradle\caches\transforms-3\351bf483d82af561c68216189a08a8df\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vinim\.gradle\caches\transforms-3\351bf483d82af561c68216189a08a8df\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\vinim\.gradle\caches\transforms-3\99e931e8f271f52d50f2fd2185effb7c\transformed\firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\vinim\.gradle\caches\transforms-3\99e931e8f271f52d50f2fd2185effb7c\transformed\firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\vinim\.gradle\caches\transforms-3\68481e3df1e1a1a8c3099929c3ec879e\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
@@ -118,8 +122,6 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\vinim\.gradle\caches\transforms-3\886b14d38af004bf1eb98eb9b1e6d40e\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:29:5-30:19
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\c0f0caa8cfd712885aec1e6b5d20f256\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\c0f0caa8cfd712885aec1e6b5d20f256\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.material:material:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\aa6a83f3616898d376ea40b65475cfce\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\aa6a83f3616898d376ea40b65475cfce\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vinim\.gradle\caches\transforms-3\305346e0a76006890c335bfa693db8f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vinim\.gradle\caches\transforms-3\305346e0a76006890c335bfa693db8f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8c8fdfc90e151984845ac4bfefe8b274\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
@@ -142,22 +144,24 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vinim\.gradle\caches\transforms-3\f444afcd9664d09297bc390ddb2b26a5\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\147644c77ddbfc74178da2f89b3e2292\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\147644c77ddbfc74178da2f89b3e2292\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
@@ -173,7 +177,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\cach
 	android:allowBackup
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:13:9-45
+		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:13:9-50
 	android:dataExtractionRules
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:7:9-65
 activity#com.example.compras.SessionActivity
@@ -185,7 +189,7 @@ ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:15:9-20:55
 	android:exported
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:17:13-37
 	android:theme
-		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:19:13-49
+		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:19:13-54
 	android:name
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:16:13-44
 activity#com.example.compras.MainActivity
@@ -210,6 +214,24 @@ INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml
 INJECTED from D:\AppCompras\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.1.3] C:\Users\vinim\.gradle\caches\transforms-3\b5b60950100621d891f7651fc6218154\transformed\viewbinding-8.1.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.1.3] C:\Users\vinim\.gradle\caches\transforms-3\b5b60950100621d891f7651fc6218154\transformed\viewbinding-8.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\cbec43951492df43272c131151ee29a6\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\cbec43951492df43272c131151ee29a6\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\8d6fc0745a45123b145e29a72ed887c1\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\8d6fc0745a45123b145e29a72ed887c1\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\5bf81cdf439c1135bf9d0e31e7e5ce86\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\5bf81cdf439c1135bf9d0e31e7e5ce86\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\d8204334783fdccf6cd24bfc3b19bf13\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\d8204334783fdccf6cd24bfc3b19bf13\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\6133f51d241e1eddd385931c2489e9f5\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\6133f51d241e1eddd385931c2489e9f5\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\6e1c93a4f4a045e1566b32e753f89156\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\6e1c93a4f4a045e1566b32e753f89156\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\3d4be87ea5821953ef08393a4c64b664\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\3d4be87ea5821953ef08393a4c64b664\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\556a0d91174d978830b3fc514b644f65\transformed\navigation-ui-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\vinim\.gradle\caches\transforms-3\556a0d91174d978830b3fc514b644f65\transformed\navigation-ui-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vinim\.gradle\caches\transforms-3\351bf483d82af561c68216189a08a8df\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vinim\.gradle\caches\transforms-3\351bf483d82af561c68216189a08a8df\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\vinim\.gradle\caches\transforms-3\99e931e8f271f52d50f2fd2185effb7c\transformed\firebase-database-20.3.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\vinim\.gradle\caches\transforms-3\99e931e8f271f52d50f2fd2185effb7c\transformed\firebase-database-20.3.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\vinim\.gradle\caches\transforms-3\68481e3df1e1a1a8c3099929c3ec879e\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
@@ -230,14 +252,10 @@ MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Us
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\e02e877e572a28cfee96d0fc0dde6116\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\c0f0caa8cfd712885aec1e6b5d20f256\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vinim\.gradle\caches\transforms-3\c0f0caa8cfd712885aec1e6b5d20f256\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\cd562edf58a500f0d7efd4c74dc1b759\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\cd562edf58a500f0d7efd4c74dc1b759\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\0259c14fd37981978dd12e60abad780c\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\0259c14fd37981978dd12e60abad780c\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\aa6a83f3616898d376ea40b65475cfce\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\aa6a83f3616898d376ea40b65475cfce\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vinim\.gradle\caches\transforms-3\305346e0a76006890c335bfa693db8f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vinim\.gradle\caches\transforms-3\305346e0a76006890c335bfa693db8f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tsuryo:Swipeable-RecyclerView:1.1] C:\Users\vinim\.gradle\caches\transforms-3\6e648e3ede520c094e62cbe588eef443\transformed\Swipeable-RecyclerView-1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tsuryo:Swipeable-RecyclerView:1.1] C:\Users\vinim\.gradle\caches\transforms-3\6e648e3ede520c094e62cbe588eef443\transformed\Swipeable-RecyclerView-1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\vinim\.gradle\caches\transforms-3\9a139ee528be1f47d2de7a4fe42b7fb0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\vinim\.gradle\caches\transforms-3\9a139ee528be1f47d2de7a4fe42b7fb0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\vinim\.gradle\caches\transforms-3\780f89922e0d0767818abc2cdc44d8e0\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
@@ -270,48 +288,28 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vinim\.gradle\caches\transforms-3\f444afcd9664d09297bc390ddb2b26a5\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\29553c9f110e156e273899650dfb8eab\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\29553c9f110e156e273899650dfb8eab\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\9156e3dbd3a3698e5c2ccc92b90a5656\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\9156e3dbd3a3698e5c2ccc92b90a5656\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\vinim\.gradle\caches\transforms-3\512fd20180873409fed1a0d5b1fc9723\transformed\fragment-ktx-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\vinim\.gradle\caches\transforms-3\512fd20180873409fed1a0d5b1fc9723\transformed\fragment-ktx-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\vinim\.gradle\caches\transforms-3\b7920a4ba99f0cb4897c2b3dd7dbae7c\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\vinim\.gradle\caches\transforms-3\b7920a4ba99f0cb4897c2b3dd7dbae7c\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\86d9e64a1811864c6631d82b701ed73d\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\86d9e64a1811864c6631d82b701ed73d\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\f77ad8ab1f37db50dc7971fd184560c0\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\f77ad8ab1f37db50dc7971fd184560c0\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\vinim\.gradle\caches\transforms-3\52287dc9aae582db078e5eddee56b88c\transformed\activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\vinim\.gradle\caches\transforms-3\52287dc9aae582db078e5eddee56b88c\transformed\activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\vinim\.gradle\caches\transforms-3\62b42ac756feb1843f1ebe9d7b64323a\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\vinim\.gradle\caches\transforms-3\62b42ac756feb1843f1ebe9d7b64323a\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\vinim\.gradle\caches\transforms-3\33f8891ccd3329a45c91aaba7c0c1782\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\vinim\.gradle\caches\transforms-3\33f8891ccd3329a45c91aaba7c0c1782\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\vinim\.gradle\caches\transforms-3\c49d5bca8072abe61f2178b71440e979\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\vinim\.gradle\caches\transforms-3\c49d5bca8072abe61f2178b71440e979\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\a819f5c3da98e5dfe98a3e2242fd958a\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\a819f5c3da98e5dfe98a3e2242fd958a\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\6d6dbd62675fbd0f0a60ac602630077d\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\vinim\.gradle\caches\transforms-3\6d6dbd62675fbd0f0a60ac602630077d\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\866ef9bb8008de243851801a11fc7225\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\866ef9bb8008de243851801a11fc7225\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\1542d65401bca55d2605874f1a920584\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\1542d65401bca55d2605874f1a920584\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\e57e4b00b1024b5a893422313cdc0177\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\e57e4b00b1024b5a893422313cdc0177\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\ddc169153a669870f6e536c787408487\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\ddc169153a669870f6e536c787408487\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\03b9224898075f2aede244f60976d618\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\vinim\.gradle\caches\transforms-3\03b9224898075f2aede244f60976d618\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\3dd5e93026cdfad68c17caaca2ed4abb\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\3dd5e93026cdfad68c17caaca2ed4abb\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\42b9d3ca0c9973095c554c9f01160c65\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\42b9d3ca0c9973095c554c9f01160c65\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\2c3069d380b93dfba9575710ca06fe48\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\2c3069d380b93dfba9575710ca06fe48\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\805f6d3be87190c01d6bfd8c9821b092\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\805f6d3be87190c01d6bfd8c9821b092\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\17ddd1b913323dd9e3ea33ee3bdbcccc\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\17ddd1b913323dd9e3ea33ee3bdbcccc\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vinim\.gradle\caches\transforms-3\3d8097bf111bca6671fc9df07c5c21aa\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vinim\.gradle\caches\transforms-3\3d8097bf111bca6671fc9df07c5c21aa\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\27264d08bd4753277804ce6383551f21\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\27264d08bd4753277804ce6383551f21\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\3c330747a048f221de1294824785f0b4\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\3c330747a048f221de1294824785f0b4\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\b7525950646dc7f5a201791672b34687\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\b7525950646dc7f5a201791672b34687\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8fa3ef23d7d10685638b7ff9a240155d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -322,56 +320,66 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vinim\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\2e5fa8f1b0a0492133ec5445b17acc95\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\e05b3ff14a0830b06fdd07e0455c57d2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\e05b3ff14a0830b06fdd07e0455c57d2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\17ddd1b913323dd9e3ea33ee3bdbcccc\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\17ddd1b913323dd9e3ea33ee3bdbcccc\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\26e66f614a256dbb413e1f34fba3e5b0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\26e66f614a256dbb413e1f34fba3e5b0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\5a9c9bfee7cce5e03401868324451213\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\5a9c9bfee7cce5e03401868324451213\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vinim\.gradle\caches\transforms-3\20597593106a18ad0c5172a0adc8a6f3\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vinim\.gradle\caches\transforms-3\20597593106a18ad0c5172a0adc8a6f3\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\6610c49835652a00a92d80dc169a62e7\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\6610c49835652a00a92d80dc169a62e7\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\699748786e0b63f64c8edcb375955588\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\699748786e0b63f64c8edcb375955588\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\87efa43214e1601218f6abfc086da072\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\87efa43214e1601218f6abfc086da072\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\3113d1086a2d9a0d06ee1cd2bae5d05d\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\3113d1086a2d9a0d06ee1cd2bae5d05d\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\ed73bd81f12cd3013048c3470f3ec576\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\ed73bd81f12cd3013048c3470f3ec576\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\bb926abade113c1ca90ff0da26639e1c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\bb926abade113c1ca90ff0da26639e1c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vinim\.gradle\caches\transforms-3\ea7a0534f5f898d125266be501db6091\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vinim\.gradle\caches\transforms-3\ea7a0534f5f898d125266be501db6091\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\8799f5ac8a977b1c38375ebfced939c2\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\8799f5ac8a977b1c38375ebfced939c2\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\831e23b3bcfd40741058d8c487bf9551\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\831e23b3bcfd40741058d8c487bf9551\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\ca39d464e29a65d0a6b1b5a76872f775\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\ca39d464e29a65d0a6b1b5a76872f775\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [com.daimajia.androidanimations:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\7da1a990ec794d8396fbc40f48880f28\transformed\library-2.4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.daimajia.androidanimations:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\7da1a990ec794d8396fbc40f48880f28\transformed\library-2.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.daimajia.easing:library:2.0] C:\Users\vinim\.gradle\caches\transforms-3\2cd33fab9ef20ccf4766905397f2141c\transformed\library-2.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.daimajia.easing:library:2.0] C:\Users\vinim\.gradle\caches\transforms-3\2cd33fab9ef20ccf4766905397f2141c\transformed\library-2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\887ef81fc1b7d998622a6d186de221d4\transformed\library-2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.easing:library:2.4] C:\Users\vinim\.gradle\caches\transforms-3\887ef81fc1b7d998622a6d186de221d4\transformed\library-2.4\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\353a4be59c0517722dfad899e2d16395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\353a4be59c0517722dfad899e2d16395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\71ea93d00123da800df6888b073f8c71\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\71ea93d00123da800df6888b073f8c71\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\b3171284e714fe2aa40ffb0db541a544\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\b3171284e714fe2aa40ffb0db541a544\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\23264448849bb5504f22e502960b35dd\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\23264448849bb5504f22e502960b35dd\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\7c72adffbef8f04864daf2e6ce0ddff3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\7c72adffbef8f04864daf2e6ce0ddff3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\c78c6da76e4cdd75775528daf2773682\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\c78c6da76e4cdd75775528daf2773682\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\147644c77ddbfc74178da2f89b3e2292\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\147644c77ddbfc74178da2f89b3e2292\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\5008e4c0ff17c0fee96ba4b0d11dd7e7\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\5008e4c0ff17c0fee96ba4b0d11dd7e7\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vinim\.gradle\caches\transforms-3\3adc2d97a31469b1ed197db26267135c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vinim\.gradle\caches\transforms-3\3adc2d97a31469b1ed197db26267135c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\9f085e5c423daef131ab8b525bcbb2b2\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\9f085e5c423daef131ab8b525bcbb2b2\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\b2d406d10220fb83493c5af14e4aa052\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\vinim\.gradle\caches\transforms-3\b2d406d10220fb83493c5af14e4aa052\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vinim\.gradle\caches\transforms-3\386cb203618781665b04f3cebfceb27d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vinim\.gradle\caches\transforms-3\386cb203618781665b04f3cebfceb27d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\vinim\.gradle\caches\transforms-3\dcb2bb8f475822ae11c320590f93f77b\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\vinim\.gradle\caches\transforms-3\dcb2bb8f475822ae11c320590f93f77b\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\c78c6da76e4cdd75775528daf2773682\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\c78c6da76e4cdd75775528daf2773682\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\48e39c59bba112707447e40c1c488a60\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\48e39c59bba112707447e40c1c488a60\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\23d68c45c0937b00c456f2cb7f0b50d7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\23d68c45c0937b00c456f2cb7f0b50d7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\dd3f28e06f2c5c1f4005140efb1bc1ff\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\dd3f28e06f2c5c1f4005140efb1bc1ff\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vinim\.gradle\caches\transforms-3\365000d58927721121fa287f0250d60e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vinim\.gradle\caches\transforms-3\365000d58927721121fa287f0250d60e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\3dbe92e61da44829fc7bb5ba692a1e3b\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\3dbe92e61da44829fc7bb5ba692a1e3b\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
@@ -568,22 +576,12 @@ ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinim\.gradle\caches\transforms-3\fbbc54f2500f21f64c315c778ed443d1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\98da4f132e146c8acd27791baeb9a8f0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
@@ -600,29 +598,83 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transfor
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\vinim\.gradle\caches\transforms-3\2df72f240e6f29266aca2127cecca616\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 permission#com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 uses-permission#com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\vinim\.gradle\caches\transforms-3\abaef130c692d4700f6148fe071854ec\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinim\.gradle\caches\transforms-3\85c68bc3d536ab3622ddad44deb802bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vinim\.gradle\caches\transforms-3\21feced80efd36444508f17d4e54ab74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vinim\.gradle\caches\transforms-3\9dfff1174dc93e5aa5e6e37673c79485\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

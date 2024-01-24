@@ -3,7 +3,8 @@
     <style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+        <item name="android:statusBarColor">@color/tema</item>
+        <item name="android:navigationBarColor">@color/tema</item>
 
-    <style name="Theme.Compras" parent="Base.Theme.Compras" />
+    </style>
 </resources>

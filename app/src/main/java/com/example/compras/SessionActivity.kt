@@ -35,12 +35,17 @@ class SessionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_session)
 
-
         val code = findViewById<TextView>(R.id.sessioncode)
         val button = findViewById<FloatingActionButton>(R.id.button)
         val backbutton = findViewById<ImageButton>(R.id.backbutton)
         val list = findViewById<RecyclerView>(R.id.list)
         val spinner = findViewById<Spinner>(R.id.spinner)
+        val layoutFora = findViewById<RelativeLayout>(R.id.layoutfora)
+        val layoutDentro = findViewById<RelativeLayout>(R.id.layoutdentro)
+        val buttonAdd = findViewById<Button>(R.id.addbutton)
+        val nome = findViewById<AutoCompleteTextView>(R.id.editnome)
+        val qnt = findViewById<EditText>(R.id.editqnt)
+        val marca = findViewById<EditText>(R.id.editmarca)
 
 
         code.text = intent.getStringExtra("code")
@@ -160,13 +165,6 @@ class SessionActivity : AppCompatActivity() {
         }
 
         button.setOnClickListener {
-            val layoutFora = findViewById<RelativeLayout>(R.id.layoutfora)
-            val layoutDentro = findViewById<RelativeLayout>(R.id.layoutdentro)
-            val buttonAdd = findViewById<Button>(R.id.addbutton)
-            val nome = findViewById<AutoCompleteTextView>(R.id.editnome)
-            val qnt = findViewById<EditText>(R.id.editqnt)
-            val marca = findViewById<EditText>(R.id.editmarca)
-
             layoutFora.isVisible = true
             layoutFora.isClickable = true
 
@@ -184,6 +182,14 @@ class SessionActivity : AppCompatActivity() {
 
             }
             buttonAdd.setOnClickListener {
+
+                it.isClickable = false
+
+                if (nome.text.isEmpty() || qnt.text.isEmpty() || marca.text.isEmpty()){
+                    it.isClickable = true
+                    return@setOnClickListener
+                }
+
 
                 val produto = Produtos(
                     nome.text.toString(),
@@ -203,6 +209,9 @@ class SessionActivity : AppCompatActivity() {
                 nome.text.clear()
                 qnt.text.clear()
                 marca.text.clear()
+
+
+                it.isClickable = true
 
             }
 
