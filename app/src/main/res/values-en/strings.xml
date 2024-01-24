@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Shopping</string>
+    <string name="app_name">Shopping list</string>
     <string name="title_activity_session">SessionActivity</string>
     <string name="sessao_ask_text">Already have a session?</string>
     <string name="session_code">Code</string>
@@ -16,6 +16,9 @@
     <string name="add">Add</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
+    <string name="copy">Copied!</string>
+    <string name="add_notification">Added!</string>
+
 
     <string-array name="sujestoes">
 

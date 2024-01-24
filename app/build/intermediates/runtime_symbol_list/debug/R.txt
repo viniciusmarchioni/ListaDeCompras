@@ -3946,6 +3946,7 @@ int string abc_shareactionprovider_share_with 0x7f110018
 int string abc_shareactionprovider_share_with_application 0x7f110019
 int string abc_toolbar_collapse_description 0x7f11001a
 int string add 0x7f11001b
+int string add_notification 0x7f1100d3
 int string android_animations_lib_name 0x7f11001c
 int string androidx_startup 0x7f11001d
 int string app_name 0x7f11001e
@@ -3987,6 +3988,7 @@ int string common_google_play_services_wear_update_text 0x7f110041
 int string common_open_on_phone 0x7f110042
 int string common_signin_button_text 0x7f110043
 int string common_signin_button_text_long 0x7f110044
+int string copy 0x7f1100d4
 int string create_text 0x7f110045
 int string delete 0x7f110046
 int string dest_title 0x7f110047

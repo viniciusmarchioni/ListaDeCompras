@@ -48,6 +48,7 @@ class SessionActivity : AppCompatActivity() {
                 binding.editnome.setText(listaProdutos[position].nome)
                 binding.editmarca.setText(listaProdutos[position].marca)
                 binding.editqnt.setText(listaProdutos[position].qnt)
+                listaProdutos.removeAt(position)
                 adapterProduto.notifyItemRemoved(position)
             }
 
@@ -80,33 +81,33 @@ class SessionActivity : AppCompatActivity() {
         binding.button.setOnClickListener {
             binding.layoutfora.isVisible = true
             binding.layoutfora.isClickable = true
+        }
 
-            binding.addbutton.setOnClickListener {
+        binding.addbutton.setOnClickListener {
 
-                it.isClickable = false
+            it.isClickable = false
 
-                if (binding.editnome.text.isEmpty() || binding.editqnt.text.isEmpty()) {
-                    it.isClickable = true
-                    return@setOnClickListener
-                }
-
-                val produto = Produtos(
-                    binding.editnome.text.toString(),
-                    binding.editqnt.text.toString(),
-                    binding.spinner.selectedItem.toString(),
-                    binding.editmarca.text.toString()
-                )
-
-                saveProduct(produto, binding.sessioncode.text.toString())
-                listaProdutos.add(produto)
-                adapterProduto.notifyItemInserted(listaProdutos.size)
-                binding.layoutfora.isVisible = false
-                binding.layoutfora.isClickable = false
-                binding.editnome.text.clear()
-                binding.editqnt.text.clear()
-                binding.editmarca.text.clear()
+            if (binding.editnome.text.isEmpty() || binding.editqnt.text.isEmpty()) {
                 it.isClickable = true
+                return@setOnClickListener
             }
+
+            val produto = Produtos(
+                binding.editnome.text.toString(),
+                binding.editqnt.text.toString(),
+                binding.spinner.selectedItem.toString(),
+                binding.editmarca.text.toString()
+            )
+
+            saveProduct(produto, binding.sessioncode.text.toString())
+            listaProdutos.add(produto)
+            adapterProduto.notifyItemInserted(listaProdutos.size)
+            binding.layoutfora.isVisible = false
+            binding.layoutfora.isClickable = false
+            binding.editnome.text.clear()
+            binding.editqnt.text.clear()
+            binding.editmarca.text.clear()
+            it.isClickable = true
         }
 
         binding.layoutfora.setOnClickListener {
@@ -153,7 +154,6 @@ class SessionActivity : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                Log.e("TAG", "Erro ao ler dados do banco de dados: ${error.message}")
             }
         })
     }
@@ -161,7 +161,7 @@ class SessionActivity : AppCompatActivity() {
     private fun saveProduct(produtos: Produtos, path: String) {
         db.child(path).child(produtos.nome.toString()).setValue(produtos)
             .addOnCompleteListener {
-                Toast.makeText(this, "Adicionado!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.add_notification), Toast.LENGTH_LONG).show()
             }
             .addOnFailureListener {
 

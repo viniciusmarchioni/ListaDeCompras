@@ -3947,6 +3947,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string add
+string add_notification
 string android_animations_lib_name
 string androidx_startup
 string app_name
@@ -3988,6 +3989,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy
 string create_text
 string delete
 string dest_title

@@ -55,12 +55,19 @@ class MainActivity : AppCompatActivity() {
             val clipData = ClipData.newPlainText("Label", title.text)
             clipboardManager.setPrimaryClip(clipData)
 
-            Toast.makeText(this, "Copiado!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.copy), Toast.LENGTH_SHORT).show()
         }
 
 
         buttonEntrar.setOnClickListener {
             it.isClickable = false
+
+            if (editCode.text.isEmpty()){
+                YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
+                it.isClickable = true
+                return@setOnClickListener
+            }
+
             // Inicialize o Firebase
             databaseReference = FirebaseDatabase.getInstance().getReference("")
 

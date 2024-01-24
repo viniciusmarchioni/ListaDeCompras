@@ -49,9 +49,11 @@ layout holder_recycle_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 string add
+string add_notification
 string app_name
 string brand
 string brand_hint
+string copy
 string create_text
 string delete
 string edit

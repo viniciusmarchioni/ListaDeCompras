@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Compras</string>
+    <string name="app_name">Lista de compras</string>
     <string name="title_activity_session">SessionActivity</string>
     <string name="sessao_ask_text">Já tem uma sessão?</string>
     <string name="session_code">Código</string>
@@ -13,8 +13,10 @@
     <string name="brand">Marca:</string>
     <string name="brand_hint">Camil\n</string>
     <string name="add">Adicionar</string>
-    <string name="edit">editar</string>
+    <string name="edit">Editar</string>
     <string name="delete">Apagar</string>
+    <string name="copy">Copiado!</string>
+    <string name="add_notification">Adicionado!</string>
 
     <string-array name="sujestoes">
 
