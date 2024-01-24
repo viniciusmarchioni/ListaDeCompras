@@ -53,6 +53,7 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vinim\.gradle\ca
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\27264d08bd4753277804ce6383551f21\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\3c330747a048f221de1294824785f0b4\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01] C:\Users\vinim\.gradle\caches\transforms-3\08bcee8d5ae28a4e5baf14ba4d19f3f3\transformed\swiperefreshlayout-1.2.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\b7525950646dc7f5a201791672b34687\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8fa3ef23d7d10685638b7ff9a240155d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8e4b1f53fea83a360fd1cdffe098cb39\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -310,6 +311,8 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transfo
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\3c330747a048f221de1294824785f0b4\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\3c330747a048f221de1294824785f0b4\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01] C:\Users\vinim\.gradle\caches\transforms-3\08bcee8d5ae28a4e5baf14ba4d19f3f3\transformed\swiperefreshlayout-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01] C:\Users\vinim\.gradle\caches\transforms-3\08bcee8d5ae28a4e5baf14ba4d19f3f3\transformed\swiperefreshlayout-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\b7525950646dc7f5a201791672b34687\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vinim\.gradle\caches\transforms-3\b7525950646dc7f5a201791672b34687\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vinim\.gradle\caches\transforms-3\8fa3ef23d7d10685638b7ff9a240155d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41

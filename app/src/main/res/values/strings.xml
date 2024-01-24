@@ -13,6 +13,8 @@
     <string name="brand">Marca:</string>
     <string name="brand_hint">Camil\n</string>
     <string name="add">Adicionar</string>
+    <string name="edit">editar</string>
+    <string name="delete">Apagar</string>
 
     <string-array name="sujestoes">
 

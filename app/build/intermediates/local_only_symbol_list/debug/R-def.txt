@@ -12,6 +12,8 @@ drawable baseline_arrow_back_24
 drawable baseline_arrow_back_25
 drawable cart_holder
 drawable copy
+drawable delete_24
+drawable edit_24
 drawable edittext_rounded_corners
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -33,6 +35,7 @@ id layoutdentro
 id layoutfora
 id list
 id notation
+id refresh
 id sessioncode
 id spinner
 id text
@@ -50,6 +53,8 @@ string app_name
 string brand
 string brand_hint
 string create_text
+string delete
+string edit
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key

@@ -16,8 +16,7 @@ class AdapterProduto(private val context: Context, private val produtos: Mutable
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProdutoViewHolder {
         val item =
             LayoutInflater.from(context).inflate(R.layout.holder_recycle_layout, parent, false)
-        val holder = ProdutoViewHolder(item)
-        return holder
+        return ProdutoViewHolder(item)
     }
 
     override fun getItemCount(): Int = produtos.size

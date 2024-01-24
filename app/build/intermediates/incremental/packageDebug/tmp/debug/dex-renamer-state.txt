@@ -1,4 +1,4 @@
-#Tue Jan 23 21:05:20 BRT 2024
+#Tue Jan 23 22:56:38 BRT 2024
 base.0=D\:\\AppCompras\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\AppCompras\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\AppCompras\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex

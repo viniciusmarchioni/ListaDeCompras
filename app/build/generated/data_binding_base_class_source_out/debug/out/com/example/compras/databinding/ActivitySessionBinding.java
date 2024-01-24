@@ -14,11 +14,12 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.compras.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.tsuryo.swipeablerv.SwipeableRecyclerView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -55,7 +56,10 @@ public final class ActivitySessionBinding implements ViewBinding {
   public final RelativeLayout layoutfora;
 
   @NonNull
-  public final RecyclerView list;
+  public final SwipeableRecyclerView list;
+
+  @NonNull
+  public final SwipeRefreshLayout refresh;
 
   @NonNull
   public final TextView sessioncode;
@@ -74,8 +78,9 @@ public final class ActivitySessionBinding implements ViewBinding {
       @NonNull FloatingActionButton button, @NonNull EditText editmarca,
       @NonNull AutoCompleteTextView editnome, @NonNull EditText editqnt,
       @NonNull RelativeLayout layoutdentro, @NonNull RelativeLayout layoutfora,
-      @NonNull RecyclerView list, @NonNull TextView sessioncode, @NonNull Spinner spinner,
-      @NonNull TextView textmarca, @NonNull TextView textquantidade) {
+      @NonNull SwipeableRecyclerView list, @NonNull SwipeRefreshLayout refresh,
+      @NonNull TextView sessioncode, @NonNull Spinner spinner, @NonNull TextView textmarca,
+      @NonNull TextView textquantidade) {
     this.rootView = rootView;
     this.addbutton = addbutton;
     this.appbar = appbar;
@@ -87,6 +92,7 @@ public final class ActivitySessionBinding implements ViewBinding {
     this.layoutdentro = layoutdentro;
     this.layoutfora = layoutfora;
     this.list = list;
+    this.refresh = refresh;
     this.sessioncode = sessioncode;
     this.spinner = spinner;
     this.textmarca = textmarca;
@@ -175,8 +181,14 @@ public final class ActivitySessionBinding implements ViewBinding {
       }
 
       id = R.id.list;
-      RecyclerView list = ViewBindings.findChildViewById(rootView, id);
+      SwipeableRecyclerView list = ViewBindings.findChildViewById(rootView, id);
       if (list == null) {
+        break missingId;
+      }
+
+      id = R.id.refresh;
+      SwipeRefreshLayout refresh = ViewBindings.findChildViewById(rootView, id);
+      if (refresh == null) {
         break missingId;
       }
 
@@ -205,8 +217,8 @@ public final class ActivitySessionBinding implements ViewBinding {
       }
 
       return new ActivitySessionBinding((RelativeLayout) rootView, addbutton, appbar, backbutton,
-          button, editmarca, editnome, editqnt, layoutdentro, layoutfora, list, sessioncode,
-          spinner, textmarca, textquantidade);
+          button, editmarca, editnome, editqnt, layoutdentro, layoutfora, list, refresh,
+          sessioncode, spinner, textmarca, textquantidade);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

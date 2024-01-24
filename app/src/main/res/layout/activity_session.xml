@@ -33,15 +33,27 @@
 
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar">
+
+    <com.tsuryo.swipeablerv.SwipeableRecyclerView
+        android:layout_below="@+id/appbar"
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/appbar"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        app:leftBgColor="@color/red"
+        app:leftImage="@drawable/delete_24"
+        app:leftText="Delete"
+        app:rightBgColor="@color/blue"
+        app:rightImage="@drawable/edit_24"
+        app:rightText="Read"
+        app:textColor="@android:color/white"
+        app:textSize="20sp" />
 
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -68,6 +80,7 @@
             android:layout_width="320dp"
             android:layout_height="288dp"
             android:layout_centerInParent="true"
+            android:clickable="true"
             android:background="@drawable/edittext_rounded_corners">
 
             <TextView
