@@ -53,8 +53,9 @@ class SessionActivity : AppCompatActivity() {
             }
 
             override fun onSwipedRight(position: Int) {
-                val nomeremovido = listaProdutos[position].nome
-                db.child("${binding.sessioncode.text}/$nomeremovido").removeValue()
+                //remover o valor que for filho do código da sessão com o nome do produto escolhido
+                db.child("${binding.sessioncode.text}/${listaProdutos[position].nome}")
+                    .removeValue()
                 listaProdutos.removeAt(position)
                 adapterProduto.notifyItemRemoved(position)
             }
@@ -65,7 +66,7 @@ class SessionActivity : AppCompatActivity() {
             ArrayAdapter(
                 this,
                 android.R.layout.simple_list_item_1,
-                arrayOf("UNID", "kg", "g", "L", "ml")
+                arrayOf("unid", "kg", "g", "L", "ml")
             )
 
         binding.backbutton.setOnClickListener {
@@ -135,12 +136,15 @@ class SessionActivity : AppCompatActivity() {
                                     "nome" -> {
                                         obj.nome = valorDoDado
                                     }
+
                                     "qnt" -> {
                                         obj.qnt = valorDoDado
                                     }
+
                                     "notation" -> {
                                         obj.notation = valorDoDado
                                     }
+
                                     "marca" -> {
                                         obj.marca = valorDoDado
                                     }

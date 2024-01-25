@@ -38,6 +38,9 @@
         android:testOnly="true"
         android:theme="@style/Base.Theme.Compras" >
         <activity
+            android:name="com.example.compras.HelpActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.compras.SessionActivity"
             android:exported="false"
             android:label="@string/title_activity_session"

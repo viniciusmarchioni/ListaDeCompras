@@ -24,12 +24,11 @@ import com.google.firebase.database.ValueEventListener
 import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var databaseReference: DatabaseReference
+    private var databaseReference: DatabaseReference = FirebaseDatabase.getInstance().getReference("")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
 
         val title = findViewById<TextView>(R.id.text)
         val editCode = findViewById<EditText>(R.id.codigo) //colocar automaticamente ao criar
@@ -68,15 +67,12 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Inicialize o Firebase
-            databaseReference = FirebaseDatabase.getInstance().getReference("")
-
             // Chame a função para verificar a existência da chave
             val chaveRef = databaseReference.child(editCode.text.toString())
 
-            chaveRef.addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onDataChange(dataSnapshot: DataSnapshot) {
-                    if (dataSnapshot.exists()) {
+            val valueEventListener = object : ValueEventListener{
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    if (snapshot.exists()) {
                         val intent = Intent(this@MainActivity, SessionActivity::class.java)
                         intent.putExtra("code", editCode.text.toString())
 
@@ -86,24 +82,30 @@ class MainActivity : AppCompatActivity() {
                         editor.putString("lastCode", editCode.text.toString())
                         editor.apply()
 
+                        chaveRef.removeEventListener(this)
 
                         startActivity(intent)
-                    } else {
+                    } else{
                         YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                         it.isClickable = true
                     }
                 }
-                override fun onCancelled(databaseError: DatabaseError) {
+
+                override fun onCancelled(error: DatabaseError) {
                     YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                     it.isClickable = true
                 }
-            })
+
+            }
+            chaveRef.addListenerForSingleValueEvent(valueEventListener)
+            chaveRef.removeEventListener(valueEventListener)
+
+
+
         }
 
 
         buttonCriar.setOnClickListener {
-            databaseReference =
-                FirebaseDatabase.getInstance().reference
             val code = generateCode()
             databaseReference.child(code).setValue("")
             title.text = code

@@ -96,8 +96,8 @@
                 android:layout_above="@+id/textquantidade"
                 android:background="@drawable/edittext_rounded_corners"
                 android:hint="@string/name_hint"
-                android:inputType="textAutoCorrect"
-                android:maxLength="15"
+                android:inputType="textCapWords"
+                android:maxLength="25"
                 android:maxLines="1"
                 android:minWidth="150dp"
                 android:textAlignment="center" />
@@ -144,10 +144,10 @@
                 android:layout_below="@+id/textmarca"
                 android:background="@drawable/edittext_rounded_corners"
                 android:hint="@string/brand_hint"
-                android:inputType="textAutoCorrect"
-                android:maxLength="15"
+                android:inputType="textCapWords"
+                android:maxLength="20"
                 android:maxLines="1"
-                android:minWidth="100dp"
+                android:minWidth="150dp"
                 android:textAlignment="center"
                 android:autofillHints="" />
 

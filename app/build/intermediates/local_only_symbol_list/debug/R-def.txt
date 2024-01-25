@@ -9,12 +9,12 @@ color white
 dimen fab_margin
 drawable baseline_add_24
 drawable baseline_arrow_back_24
-drawable baseline_arrow_back_25
 drawable cart_holder
 drawable copy
 drawable delete_24
 drawable edit_24
 drawable edittext_rounded_corners
+drawable help_40
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable share
