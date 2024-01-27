@@ -1,8 +1,9 @@
 package com.example.compras
 
+import android.annotation.SuppressLint
 import android.content.Intent
+import android.media.MediaPlayer
 import android.os.Bundle
-import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -27,6 +28,8 @@ class SessionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySessionBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        val mp = MediaPlayer.create(this,R.raw.click)
+
 
         val suj = resources.getStringArray(R.array.sujestoes)
         binding.sessioncode.text = intent.getStringExtra("code")
@@ -100,9 +103,10 @@ class SessionActivity : AppCompatActivity() {
                 binding.editmarca.text.toString()
             )
 
-            saveProduct(produto, binding.sessioncode.text.toString())
             listaProdutos.add(produto)
             adapterProduto.notifyItemInserted(listaProdutos.size)
+            mp.start()
+            saveProduct(produto, binding.sessioncode.text.toString())//try pq pode dar timeout
             binding.layoutfora.isVisible = false
             binding.layoutfora.isClickable = false
             binding.editnome.text.clear()
@@ -124,6 +128,7 @@ class SessionActivity : AppCompatActivity() {
 
         db.child(path).addListenerForSingleValueEvent(object :
             ValueEventListener {
+            @SuppressLint("NotifyDataSetChanged")
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.hasChildren()) {
                     for (filho in snapshot.children) {

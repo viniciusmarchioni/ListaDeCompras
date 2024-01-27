@@ -3167,6 +3167,8 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable music_note_24
+drawable music_off_24
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3180,11 +3182,16 @@ drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
+drawable notifications_24
+drawable notifications_off_24
 drawable notify_panel_notification_icon_bg
+drawable settings_40
+drawable settings_48
 drawable share
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vibration_24
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3421,6 +3428,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView1
+id imageView2
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3507,6 +3517,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id musicSwitch
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
@@ -3528,6 +3539,7 @@ id notation
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notificationsSwitch
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3602,6 +3614,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id sessioncode
+id settings
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3618,6 +3631,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sobreTextView
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -3699,6 +3713,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id vibrationSwitch
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3833,6 +3848,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_config
 layout activity_main
 layout activity_session
 layout custom_dialog
@@ -3918,6 +3934,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw click
 raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -4000,6 +4017,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firebase_database_url
+string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -4009,6 +4027,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string imageDescription
 string item_view_role_description
+string lorem_ipsum
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4112,12 +4131,14 @@ string mtrl_timepicker_confirm
 string name_hint
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string next
 string one
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string previous
 string product_name_ask
 string project_id
 string qnt_ask
@@ -4125,12 +4146,14 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string second_fragment_label
 string sessao_ask_text
 string session_code
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string singIn
 string status_bar_notification_info_overflow
+string title_activity_help
 string title_activity_session
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -4148,6 +4171,7 @@ style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
 style Base_Animation_AppCompat_DropDownUp
 style Base_Animation_AppCompat_Tooltip
+style Base_Base_Theme_Compras
 style Base_CardView
 style Base_DialogWindowTitle_AppCompat
 style Base_DialogWindowTitleBackground_AppCompat

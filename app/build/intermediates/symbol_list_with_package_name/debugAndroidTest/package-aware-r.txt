@@ -1,3 +1,0 @@
-com.example.compras.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

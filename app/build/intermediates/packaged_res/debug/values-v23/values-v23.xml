@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Base.Theme.Compras" parent="Base.Base.Theme.Compras">
+        
+        <item name="android:navigationBarColor">@color/tema</item>
+        <item name="android:statusBarColor">@color/tema</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
     <style name="Theme.Compras" parent="Base.Theme.Compras">
         
-        <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/tema</item>
+        <item name="android:statusBarColor">@color/tema</item>
         <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
     </style>
 </resources>

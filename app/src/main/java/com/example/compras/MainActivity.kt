@@ -6,7 +6,6 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
@@ -35,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         val buttonEntrar = findViewById<Button>(R.id.entrar)
         val buttonCriar = findViewById<Button>(R.id.criar)
         val buttonCompartilhar = findViewById<ImageButton>(R.id.compartilhar)
+        val settings = findViewById<ImageButton>(R.id.settings)
         title.isClickable = false
 
 
@@ -133,6 +133,10 @@ class MainActivity : AppCompatActivity() {
 
             // Iniciar a Activity de compartilhamento
             startActivity(Intent.createChooser(intent, ""))
+        }
+
+        settings.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ConfigActivity::class.java))
         }
 
     }

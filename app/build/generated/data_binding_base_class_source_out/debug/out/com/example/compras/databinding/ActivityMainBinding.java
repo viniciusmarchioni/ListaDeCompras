@@ -35,16 +35,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button entrar;
 
   @NonNull
+  public final ImageButton settings;
+
+  @NonNull
   public final TextView text;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull EditText codigo,
       @NonNull ImageButton compartilhar, @NonNull Button criar, @NonNull Button entrar,
-      @NonNull TextView text) {
+      @NonNull ImageButton settings, @NonNull TextView text) {
     this.rootView = rootView;
     this.codigo = codigo;
     this.compartilhar = compartilhar;
     this.criar = criar;
     this.entrar = entrar;
+    this.settings = settings;
     this.text = text;
   }
 
@@ -99,6 +103,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.settings;
+      ImageButton settings = ViewBindings.findChildViewById(rootView, id);
+      if (settings == null) {
+        break missingId;
+      }
+
       id = R.id.text;
       TextView text = ViewBindings.findChildViewById(rootView, id);
       if (text == null) {
@@ -106,7 +116,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((RelativeLayout) rootView, codigo, compartilhar, criar, entrar,
-          text);
+          settings, text);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

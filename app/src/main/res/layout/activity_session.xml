@@ -157,6 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/editmarca"
                 android:layout_centerHorizontal="true"
+                android:soundEffectsEnabled="false"
                 android:backgroundTint="@color/tema"
                 android:text="@string/add"
                 android:textColor="@color/black" />
