@@ -2,6 +2,7 @@ package com.example.compras
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.SharedPreferences
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -17,6 +18,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.tsuryo.swipeablerv.SwipeLeftRightCallback
+import java.lang.Exception
 
 class SessionActivity : AppCompatActivity() {
 
@@ -29,10 +31,9 @@ class SessionActivity : AppCompatActivity() {
         binding = ActivitySessionBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val mp = MediaPlayer.create(this,R.raw.click)
-
-
         val suj = resources.getStringArray(R.array.sujestoes)
         binding.sessioncode.text = intent.getStringExtra("code")
+        val pref: SharedPreferences = getSharedPreferences("config-xml", MODE_PRIVATE)
 
         // Configurando adapter do Auto Complete
         val arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, suj)
@@ -105,7 +106,9 @@ class SessionActivity : AppCompatActivity() {
 
             listaProdutos.add(produto)
             adapterProduto.notifyItemInserted(listaProdutos.size)
-            mp.start()
+            if (pref.getBoolean("sound",true)){ //verificando o arq se estiver faz som
+                mp.start()
+            }
             saveProduct(produto, binding.sessioncode.text.toString())//try pq pode dar timeout
             binding.layoutfora.isVisible = false
             binding.layoutfora.isClickable = false
