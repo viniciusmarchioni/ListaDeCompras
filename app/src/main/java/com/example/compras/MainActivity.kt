@@ -29,6 +29,7 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     private var databaseReference: DatabaseReference =
         FirebaseDatabase.getInstance().getReference("")
+    private var response: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -86,10 +87,11 @@ class MainActivity : AppCompatActivity() {
 
                         editor.putString("lastCode", editCode.text.toString())
                         editor.apply()
+                        response = true
                         chaveRef.removeEventListener(this)
-
                         startActivity(intent)
                     } else {
+                        response = true
                         YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                         it.isClickable = true
                     }
@@ -104,13 +106,16 @@ class MainActivity : AppCompatActivity() {
             }
 
             chaveRef.addListenerForSingleValueEvent(valueEventListener)
+            chaveRef.removeEventListener(valueEventListener)
 
             lifecycleScope.launch {
-                timer(valueEventListener,chaveRef)
-                YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
-                it.isClickable = true
-                buttonCriar.isClickable = true
-                title.text = "Falha na conexão."
+                timer(valueEventListener, chaveRef)
+                if (!response) {
+                    YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
+                    it.isClickable = true
+                    buttonCriar.isClickable = true
+                    title.text = getString(R.string.connectionFail)
+                }
             }
         }
 
@@ -151,7 +156,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private suspend fun timer(valueEventListener: ValueEventListener,databeseReference: DatabaseReference){
+    private suspend fun timer(
+        valueEventListener: ValueEventListener,
+        databeseReference: DatabaseReference
+    ) {
         delay(5000L)
         databeseReference.removeEventListener(valueEventListener)
     }

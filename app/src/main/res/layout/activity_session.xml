@@ -119,7 +119,6 @@
                 style="@style/editText"
                 android:layout_below="@+id/textmarca"
                 android:autofillHints=""
-                android:background="@drawable/edittext_rounded_corners"
                 android:hint="@string/brand_hint"
                 android:inputType="textCapWords"
                 android:maxLength="20"

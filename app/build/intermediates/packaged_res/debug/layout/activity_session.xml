@@ -2,9 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/layout"
     tools:context=".SessionActivity">
 
     <LinearLayout
@@ -31,19 +31,19 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/appbar">
 
-    <com.tsuryo.swipeablerv.SwipeableRecyclerView
-        android:layout_below="@+id/appbar"
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:leftBgColor="@color/red"
-        app:leftImage="@drawable/delete_24"
-        app:leftText="@string/delete"
-        app:rightBgColor="@color/blue"
-        app:rightImage="@drawable/edit_24"
-        app:rightText="@string/edit"
-        app:textColor="@android:color/white"
-        app:textSize="20sp" />
+        <com.tsuryo.swipeablerv.SwipeableRecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"
+            app:leftBgColor="@color/red"
+            app:leftImage="@drawable/delete_24"
+            app:leftText="@string/delete"
+            app:rightBgColor="@color/blue"
+            app:rightImage="@drawable/edit_24"
+            app:rightText="@string/edit"
+            app:textColor="@android:color/white"
+            app:textSize="20sp" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
@@ -58,8 +58,8 @@
         android:layout_marginBottom="48dp"
         android:backgroundTint="@color/tema"
         android:clickable="true"
-        app:srcCompat="@drawable/baseline_add_24"
-        android:contentDescription="@string/imageDescription" />
+        android:contentDescription="@string/imageDescription"
+        app:srcCompat="@drawable/baseline_add_24" />
 
     <RelativeLayout
         android:id="@+id/layoutfora"
@@ -95,11 +95,11 @@
                 android:id="@+id/editqnt"
                 style="@style/editText"
                 android:layout_centerVertical="true"
+                android:autofillHints=""
                 android:hint="@string/one"
                 android:inputType="number"
                 android:maxLength="5"
-                android:minWidth="50dp"
-                android:autofillHints="" />
+                android:minWidth="50dp" />
 
             <Spinner
                 android:id="@+id/spinner"
@@ -118,20 +118,19 @@
                 android:id="@+id/editmarca"
                 style="@style/editText"
                 android:layout_below="@+id/textmarca"
-                android:background="@drawable/edittext_rounded_corners"
+                android:autofillHints=""
                 android:hint="@string/brand_hint"
                 android:inputType="textCapWords"
                 android:maxLength="20"
-                android:minWidth="150dp"
-                android:autofillHints="" />
+                android:minWidth="150dp" />
 
             <Button
                 android:id="@+id/addbutton"
                 style="@style/button"
                 android:layout_below="@+id/editmarca"
                 android:layout_centerHorizontal="true"
-                android:soundEffectsEnabled="false"
                 android:backgroundTint="@color/tema"
+                android:soundEffectsEnabled="false"
                 android:text="@string/add"
                 android:textColor="@color/black" />
 

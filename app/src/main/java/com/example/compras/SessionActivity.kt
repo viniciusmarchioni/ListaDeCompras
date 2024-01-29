@@ -25,7 +25,6 @@ class SessionActivity : AppCompatActivity() {
     private val db: DatabaseReference = FirebaseDatabase.getInstance().reference
     private lateinit var binding: ActivitySessionBinding
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySessionBinding.inflate(layoutInflater)
@@ -64,6 +63,7 @@ class SessionActivity : AppCompatActivity() {
                 adapterProduto.notifyItemRemoved(position)
             }
         })
+        refreshList(binding.sessioncode.text.toString(), adapterProduto)
 
         // Configurando adapter spinner
         binding.spinner.adapter =
@@ -91,6 +91,7 @@ class SessionActivity : AppCompatActivity() {
         binding.addbutton.setOnClickListener {
 
             it.isClickable = false
+
 
             if (binding.editnome.text.isEmpty() || binding.editqnt.text.isEmpty()) {
                 it.isClickable = true
@@ -120,9 +121,10 @@ class SessionActivity : AppCompatActivity() {
         binding.layoutfora.setOnClickListener {
             it.isVisible = false
             it.isClickable = false
+            binding.button.isClickable = true
         }
 
-        refreshList(binding.sessioncode.text.toString(), adapterProduto)
+
     }
 
     private fun refreshList(path: String, adapter: AdapterProduto) {
@@ -168,7 +170,7 @@ class SessionActivity : AppCompatActivity() {
 
         }
 
-        db.child(path).addValueEventListener(valueEventListener)
+        db.child(path).addListenerForSingleValueEvent(valueEventListener)
         db.removeEventListener(valueEventListener)
     }
 

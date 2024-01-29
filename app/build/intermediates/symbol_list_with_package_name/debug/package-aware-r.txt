@@ -1488,6 +1488,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -3185,6 +3186,7 @@ drawable notification_tile_bg
 drawable notifications_24
 drawable notifications_off_24
 drawable notify_panel_notification_icon_bg
+drawable rounded_corners_night
 drawable settings_40
 drawable settings_48
 drawable share
@@ -4010,6 +4012,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string config
+string connectionFail
 string copy
 string create_text
 string delete
@@ -4021,7 +4024,6 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firebase_database_url
-string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -4031,7 +4033,6 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string imageDescription
 string item_view_role_description
-string lorem_ipsum
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4135,14 +4136,12 @@ string mtrl_timepicker_confirm
 string name_hint
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
-string next
 string one
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string previous
 string product_name_ask
 string project_id
 string qnt_ask
@@ -4150,7 +4149,6 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
-string second_fragment_label
 string sessao_ask_text
 string session_code
 string side_sheet_accessibility_pane_title
@@ -4158,7 +4156,6 @@ string side_sheet_behavior
 string singIn
 string sobre
 string status_bar_notification_info_overflow
-string title_activity_help
 string title_activity_session
 string vinicius_marchioni
 style AlertDialog_AppCompat
@@ -5288,7 +5285,10 @@ style imageConfig
 style layout
 style layoutdentro
 style layoutfora
+style produtoPlaceHolder
 style textAppbar
+style textPlaceHolder
+style textPlaceHolder2
 style textView
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity

@@ -96,5 +96,27 @@
         <item name="android:text">@string/vinicius_marchioni</item>
     </style>
 
+    <style name="produtoPlaceHolder">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+    </style>
+
+    <style name="textPlaceHolder">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textPlaceHolder2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+
 
 </resources>

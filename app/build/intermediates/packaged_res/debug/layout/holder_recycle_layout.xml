@@ -5,11 +5,8 @@
     android:layout_height="wrap_content">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:id="@+id/layout"
-        android:background="@drawable/edittext_rounded_corners"
+        style="@style/produtoPlaceHolder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -22,45 +19,31 @@
 
         <TextView
             android:id="@+id/textnome"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/textPlaceHolder"
             android:layout_toEndOf="@+id/image"
-            android:text="XXXXX"
-            android:textSize="20sp" />
+            android:text="XXXXX" />
 
         <TextView
-            android:textColor="#858585"
             android:id="@+id/textqnt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/textPlaceHolder2"
             android:layout_below="@+id/textnome"
             android:layout_toEndOf="@+id/image"
-            android:text="400"
-            android:textSize="20sp" />
+            android:text="400" />
 
         <TextView
-            android:textColor="#858585"
             android:id="@+id/notation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/textPlaceHolder2"
             android:layout_below="@+id/textnome"
             android:layout_marginStart="5dp"
             android:layout_toEndOf="@+id/textqnt"
-            android:text="Unidades"
-            android:textSize="20sp" />
+            android:text="Unidades" />
 
         <TextView
-            android:textColor="#858585"
             android:id="@+id/textmarca"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/textPlaceHolder2"
             android:layout_below="@+id/textqnt"
             android:layout_toEndOf="@+id/image"
-            android:text="Marca: X"
-            android:textSize="20sp" />
-
-
+            android:text="Marca: X"/>
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
