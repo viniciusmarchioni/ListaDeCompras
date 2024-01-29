@@ -30,12 +30,12 @@
         android:id="@+id/imageView1"
         style="@style/imageConfig"
         android:layout_marginTop="332dp"
+        android:contentDescription="@string/imageDescription"
         android:src="@drawable/vibration_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.401"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/imageDescription" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/vibrationSwitch"
@@ -49,14 +49,14 @@
     <ImageView
         android:id="@+id/imageView2"
         style="@style/imageConfig"
+        android:contentDescription="@string/imageDescription"
         android:src="@drawable/music_note_24"
         app:layout_constraintBottom_toTopOf="@+id/imageView1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.401"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:contentDescription="@string/imageDescription" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/musicSwitch"
@@ -72,12 +72,12 @@
         android:layout_width="55dp"
         android:layout_height="65dp"
         android:layout_marginEnd="20dp"
+        android:contentDescription="@string/imageDescription"
         android:src="@drawable/notifications_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/notificationsSwitch"
         app:layout_constraintTop_toBottomOf="@+id/imageView1"
-        app:layout_constraintVertical_bias="0.0"
-        android:contentDescription="@string/imageDescription" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/notificationsSwitch"

@@ -30,7 +30,7 @@ class SessionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySessionBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val mp = MediaPlayer.create(this,R.raw.click)
+        val mp = MediaPlayer.create(this, R.raw.click)
         val suj = resources.getStringArray(R.array.sujestoes)
         binding.sessioncode.text = intent.getStringExtra("code")
         val pref: SharedPreferences = getSharedPreferences("config-xml", MODE_PRIVATE)
@@ -106,7 +106,7 @@ class SessionActivity : AppCompatActivity() {
 
             listaProdutos.add(produto)
             adapterProduto.notifyItemInserted(listaProdutos.size)
-            if (pref.getBoolean("sound",true)) //verificando o arq se estiver faz som
+            if (pref.getBoolean("sound", true)) //verificando o arq se estiver faz som
                 mp.start()
             saveProduct(produto, binding.sessioncode.text.toString())//try pq pode dar timeout
             binding.layoutfora.isVisible = false
@@ -128,7 +128,7 @@ class SessionActivity : AppCompatActivity() {
     private fun refreshList(path: String, adapter: AdapterProduto) {
         listaProdutos.clear()
 
-        val valueEventListener = object : ValueEventListener{
+        val valueEventListener = object : ValueEventListener {
             @SuppressLint("NotifyDataSetChanged")
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.hasChildren()) {
@@ -168,7 +168,7 @@ class SessionActivity : AppCompatActivity() {
 
         }
 
-        db.child(path).addListenerForSingleValueEvent(valueEventListener)
+        db.child(path).addValueEventListener(valueEventListener)
         db.removeEventListener(valueEventListener)
     }
 

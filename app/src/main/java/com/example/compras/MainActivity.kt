@@ -6,6 +6,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
@@ -20,10 +21,14 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import java.lang.Exception
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
-    private var databaseReference: DatabaseReference = FirebaseDatabase.getInstance().getReference("")
+    private var databaseReference: DatabaseReference =
+        FirebaseDatabase.getInstance().getReference("")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,14 +42,8 @@ class MainActivity : AppCompatActivity() {
         val settings = findViewById<ImageButton>(R.id.settings)
         title.isClickable = false
 
-
-        try {
-
-            val pref: SharedPreferences = getSharedPreferences("keys-xml", MODE_PRIVATE)
-            editCode.setText(pref.getString("lastCode", ""))
-
-        } catch (_: Exception) {
-        }
+        //pegar ultimo acesso
+        editCode.setText(getSharedPreferences("keys-xml", MODE_PRIVATE).getString("lastCode", ""))
 
 
         title.setOnClickListener {
@@ -60,17 +59,23 @@ class MainActivity : AppCompatActivity() {
 
         buttonEntrar.setOnClickListener {
             it.isClickable = false
-
-            if (editCode.text.isEmpty()){
+            buttonCriar.isClickable = false
+            if (editCode.text.isEmpty()) {
                 YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                 it.isClickable = true
+                buttonCriar.isClickable = true
+                return@setOnClickListener
+            } else if (editCode.text.length < 10) {
+                YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
+                it.isClickable = true
+                buttonCriar.isClickable = true
                 return@setOnClickListener
             }
 
             // Chame a função para verificar a existência da chave
             val chaveRef = databaseReference.child(editCode.text.toString())
 
-            val valueEventListener = object : ValueEventListener{
+            val valueEventListener = object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()) {
                         val intent = Intent(this@MainActivity, SessionActivity::class.java)
@@ -81,14 +86,14 @@ class MainActivity : AppCompatActivity() {
 
                         editor.putString("lastCode", editCode.text.toString())
                         editor.apply()
-
                         chaveRef.removeEventListener(this)
 
                         startActivity(intent)
-                    } else{
+                    } else {
                         YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                         it.isClickable = true
                     }
+
                 }
 
                 override fun onCancelled(error: DatabaseError) {
@@ -97,11 +102,16 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }
+
             chaveRef.addListenerForSingleValueEvent(valueEventListener)
-            chaveRef.removeEventListener(valueEventListener)
 
-
-
+            lifecycleScope.launch {
+                timer(valueEventListener,chaveRef)
+                YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
+                it.isClickable = true
+                buttonCriar.isClickable = true
+                title.text = "Falha na conexão."
+            }
         }
 
 
@@ -139,6 +149,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, ConfigActivity::class.java))
         }
 
+    }
+
+    private suspend fun timer(valueEventListener: ValueEventListener,databeseReference: DatabaseReference){
+        delay(5000L)
+        databeseReference.removeEventListener(valueEventListener)
     }
 
     private fun generateCode(): String {

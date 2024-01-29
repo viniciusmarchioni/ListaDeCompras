@@ -1,5 +1,8 @@
 package com.example.compras
 
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -10,8 +13,25 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
-    @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    suspend fun assincrona(time:Long){
+
+        println("Inicio da assincrona")
+
+        delay(time)
+
+        println("Fim da assincrona")
     }
+
+    @Test
+    fun main() = runBlocking {
+        println("Inicio da principal")
+
+        launch {
+            assincrona(10000L)
+        }
+
+        println("Fim da principal")
+    }
+
+
 }

@@ -5,10 +5,10 @@
     android:layout_height="wrap_content">
 
     <RelativeLayout
+        android:id="@+id/layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/layout"
         android:background="@drawable/edittext_rounded_corners"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,25 +22,24 @@
 
         <TextView
             android:id="@+id/textnome"
-            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/image"
             android:text="XXXXX"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
-            android:textColor="#858585"
             android:id="@+id/textqnt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textnome"
             android:layout_toEndOf="@+id/image"
             android:text="400"
+            android:textColor="#858585"
             android:textSize="20sp" />
 
         <TextView
-            android:textColor="#858585"
             android:id="@+id/notation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,16 +47,17 @@
             android:layout_marginStart="5dp"
             android:layout_toEndOf="@+id/textqnt"
             android:text="Unidades"
+            android:textColor="#858585"
             android:textSize="20sp" />
 
         <TextView
-            android:textColor="#858585"
             android:id="@+id/textmarca"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textqnt"
             android:layout_toEndOf="@+id/image"
             android:text="Marca: X"
+            android:textColor="#858585"
             android:textSize="20sp" />
 
 

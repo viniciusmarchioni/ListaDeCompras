@@ -12,11 +12,11 @@
         android:id="@+id/settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/tema"
-        android:src="@drawable/settings_48"
         android:layout_alignParentEnd="true"
         android:layout_margin="20dp"
-        android:contentDescription="@string/imageDescription" />
+        android:background="@color/tema"
+        android:contentDescription="@string/imageDescription"
+        android:src="@drawable/settings_48" />
 
     <TextView
         android:id="@+id/text"
@@ -25,34 +25,34 @@
         android:layout_above="@+id/codigo"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
+        android:clickable="false"
         android:text="@string/sessao_ask_text"
         android:textColor="@color/white"
-        android:clickable="false"
         android:textSize="20sp" />
 
     <ImageButton
         android:id="@+id/compartilhar"
-        android:visibility="invisible"
-        android:clickable="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/codigo"
         android:layout_marginBottom="40dp"
         android:layout_toEndOf="@+id/text"
         android:background="#00FFFFFF"
-        android:src="@drawable/share" />
+        android:clickable="false"
+        android:src="@drawable/share"
+        android:visibility="invisible" />
 
     <EditText
         android:id="@+id/codigo"
-        android:layout_centerInParent="true"
-        android:inputType="textCapCharacters"
         style="@style/editText"
+        android:layout_centerInParent="true"
+        android:autofillHints=""
         android:hint="@string/session_code"
+        android:inputType="textCapCharacters"
         android:maxLength="10"
         android:maxLines="1"
         android:minWidth="120dp"
-        android:minHeight="48dp"
-        android:autofillHints="" />
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/entrar"
