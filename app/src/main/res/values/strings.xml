@@ -219,5 +219,8 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="config">Configurações</string>
+    <string name="sobre">Sobre</string>
+    <string name="vinicius_marchioni">--Vinicius Marchioni--</string>
 
 </resources>

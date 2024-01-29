@@ -18,6 +18,9 @@
     <string name="delete">Borrar</string>
     <string name="copy">¡Copiado!</string>
     <string name="add_notification">¡Añadido!</string>
+    <string name="config">Configurações</string>
+    <string name="sobre">Acerca</string>
+    <string name="vinicius_marchioni">--Vinicius Marchioni--</string>
 
 
     <string-array name="sujestoes">

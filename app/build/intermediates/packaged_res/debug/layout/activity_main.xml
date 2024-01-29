@@ -16,7 +16,7 @@
         android:src="@drawable/settings_48"
         android:layout_alignParentEnd="true"
         android:layout_margin="20dp"
-        />
+        android:contentDescription="@string/imageDescription" />
 
     <TextView
         android:id="@+id/text"
@@ -44,22 +44,19 @@
 
     <EditText
         android:id="@+id/codigo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:inputType="textCapCharacters"
-        android:background="@drawable/edittext_rounded_corners"
+        style="@style/editText"
         android:hint="@string/session_code"
         android:maxLength="10"
         android:maxLines="1"
         android:minWidth="120dp"
         android:minHeight="48dp"
-        android:textAlignment="center" />
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/entrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:layout_below="@+id/codigo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -69,8 +66,7 @@
 
     <Button
         android:id="@+id/criar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:layout_below="@+id/entrar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"

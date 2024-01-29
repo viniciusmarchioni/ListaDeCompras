@@ -169,6 +169,7 @@
     <string name="app_name">Lista de compras</string>
     <string name="brand">Marca:</string>
     <string name="brand_hint">Camil\n</string>
+    <string name="config">Configurações</string>
     <string name="copy">Copiado!</string>
     <string name="create_text">Criar</string>
     <string name="delete">Apagar</string>
@@ -228,8 +229,10 @@
     <string name="sessao_ask_text">Já tem uma sessão?</string>
     <string name="session_code">Código</string>
     <string name="singIn">Entrar</string>
+    <string name="sobre">Sobre</string>
     <string name="title_activity_help">HelpActivity</string>
     <string name="title_activity_session">SessionActivity</string>
+    <string name="vinicius_marchioni">--Vinicius Marchioni--</string>
     <style name="Base.Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@color/tema</item>
         <item name="android:navigationBarColor">@color/tema</item>
@@ -242,5 +245,75 @@
         <item name="android:statusBarColor">@color/tema</item>
         <item name="android:navigationBarColor">@color/tema</item>
 
+    </style>
+    <style name="ViniciusMarchioni">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:text">@string/vinicius_marchioni</item>
+    </style>
+    <style name="backButton">
+        <item name="android:layout_width">39dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">#00FFFFFF</item>
+        <item name="android:src">@drawable/baseline_arrow_back_24</item>
+    </style>
+    <style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="devTitles">
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="editText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="imageConfig">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">55dp</item>
+    </style>
+    <style name="layout">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="layoutdentro">
+        <item name="android:layout_height">288dp</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+    </style>
+    <style name="layoutfora">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#88000000</item>
+        <item name="android:clickable">false</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="textAppbar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="textView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
 </resources>

@@ -18,6 +18,9 @@
     <string name="delete">Delete</string>
     <string name="copy">Copied!</string>
     <string name="add_notification">Added!</string>
+    <string name="config">Settings</string>
+    <string name="sobre">--About--</string>
+    <string name="vinicius_marchioni">--Vinicius Marchioni--</string>
 
 
     <string-array name="sujestoes">

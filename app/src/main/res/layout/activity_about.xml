@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/tema">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            style="@style/backButton"
+            android:contentDescription="@string/imageDescription" />
+
+        <TextView
+            android:id="@+id/sessioncode"
+            style="@style/textAppbar"
+            android:text="@string/sobre" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/devTitles"
+                android:paddingTop="10dp"
+                android:text="UI Developer:" />
+
+            <TextView style="@style/ViniciusMarchioni" />
+
+            <TextView
+                style="@style/devTitles"
+                android:text="Backend Dev:" />
+
+            <TextView style="@style/ViniciusMarchioni" />
+
+            <TextView
+                style="@style/devTitles"
+                android:text="Software Architect:" />
+
+            <TextView style="@style/ViniciusMarchioni" />
+
+            <TextView
+                style="@style/devTitles"
+                android:text="UX Designer:" />
+
+            <TextView style="@style/ViniciusMarchioni" />
+
+            <TextView
+                style="@style/devTitles"
+                android:text="QA Tester:" />
+
+            <TextView style="@style/ViniciusMarchioni" />
+
+            <TextView
+                style="@style/devTitles"
+                android:text="Project Manager:" />
+
+            <TextView style="@style/ViniciusMarchioni" />
+
+            <TextView
+                android:id="@+id/zapsplat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Sound from:\nZapsplat.com"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Images and assets from:\nGoogle Material Design Icons"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

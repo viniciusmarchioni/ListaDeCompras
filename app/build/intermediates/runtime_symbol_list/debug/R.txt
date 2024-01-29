@@ -3408,6 +3408,7 @@ int id fullscreen_header 0x7f0900d5
 int id ghost_view 0x7f0900d6
 int id ghost_view_holder 0x7f0900d7
 int id gone 0x7f0900d8
+int id google 0x7f09021c
 int id graph 0x7f0900d9
 int id graph_wrap 0x7f0900da
 int id group_divider 0x7f0900db
@@ -3731,6 +3732,7 @@ int id wrap_content 0x7f090218
 int id wrap_content_constrained 0x7f090219
 int id x_left 0x7f09021a
 int id x_right 0x7f09021b
+int id zapsplat 0x7f09021d
 int integer abc_config_activityDefaultDur 0x7f0a0000
 int integer abc_config_activityShortDur 0x7f0a0001
 int integer app_bar_elevation_anim_duration 0x7f0a0002
@@ -3847,6 +3849,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_about 0x7f0c006f
 int layout activity_config 0x7f0c001c
 int layout activity_main 0x7f0c001d
 int layout activity_session 0x7f0c001e
@@ -4005,6 +4008,7 @@ int string common_google_play_services_wear_update_text 0x7f110042
 int string common_open_on_phone 0x7f110043
 int string common_signin_button_text 0x7f110044
 int string common_signin_button_text_long 0x7f110045
+int string config 0x7f1100db
 int string copy 0x7f110046
 int string create_text 0x7f110047
 int string delete 0x7f110048
@@ -4151,9 +4155,11 @@ int string session_code 0x7f1100d4
 int string side_sheet_accessibility_pane_title 0x7f1100d5
 int string side_sheet_behavior 0x7f1100d6
 int string singIn 0x7f1100d7
+int string sobre 0x7f1100dc
 int string status_bar_notification_info_overflow 0x7f1100d8
 int string title_activity_help 0x7f1100d9
 int string title_activity_session 0x7f1100da
+int string vinicius_marchioni 0x7f1100dd
 int style AlertDialog_AppCompat 0x7f120000
 int style AlertDialog_AppCompat_Light 0x7f120001
 int style Animation_AppCompat_Dialog 0x7f120002
@@ -4701,7 +4707,6 @@ int style Theme_AppCompat_Light_Dialog_MinWidth 0x7f12021f
 int style Theme_AppCompat_Light_DialogWhenLarge 0x7f120220
 int style Theme_AppCompat_Light_NoActionBar 0x7f120221
 int style Theme_AppCompat_NoActionBar 0x7f120222
-int style Theme_Compras 0x7f120223
 int style Theme_Design 0x7f120224
 int style Theme_Design_BottomSheetDialog 0x7f120225
 int style Theme_Design_Light 0x7f120226
@@ -4896,6 +4901,7 @@ int style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText 0
 int style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary 0x7f1202e3
 int style ThemeOverlay_MaterialComponents_Toolbar_Primary 0x7f1202e4
 int style ThemeOverlay_MaterialComponents_Toolbar_Surface 0x7f1202e5
+int style ViniciusMarchioni 0x7f120468
 int style Widget_AppCompat_ActionBar 0x7f1202e6
 int style Widget_AppCompat_ActionBar_Solid 0x7f1202e7
 int style Widget_AppCompat_ActionBar_TabBar 0x7f1202e8
@@ -5273,6 +5279,16 @@ int style Widget_MaterialComponents_Toolbar_PrimarySurface 0x7f12045b
 int style Widget_MaterialComponents_Toolbar_Surface 0x7f12045c
 int style Widget_MaterialComponents_Tooltip 0x7f12045d
 int style Widget_Support_CoordinatorLayout 0x7f12045e
+int style backButton 0x7f120462
+int style button 0x7f120463
+int style devTitles 0x7f120469
+int style editText 0x7f12045f
+int style imageConfig 0x7f120464
+int style layout 0x7f120460
+int style layoutdentro 0x7f120465
+int style layoutfora 0x7f120466
+int style textAppbar 0x7f120467
+int style textView 0x7f120461
 int[] styleable ActionBar { 0x7f04004c, 0x7f040053, 0x7f040054, 0x7f040143, 0x7f040144, 0x7f040145, 0x7f040146, 0x7f040147, 0x7f040148, 0x7f040171, 0x7f040188, 0x7f040189, 0x7f0401a9, 0x7f040224, 0x7f04022c, 0x7f040232, 0x7f040233, 0x7f040237, 0x7f04024a, 0x7f040260, 0x7f0402e1, 0x7f040366, 0x7f04039f, 0x7f0403a7, 0x7f0403a8, 0x7f04042b, 0x7f04042f, 0x7f0404b8, 0x7f0404c6 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1

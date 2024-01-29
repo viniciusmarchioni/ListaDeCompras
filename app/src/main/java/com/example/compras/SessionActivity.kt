@@ -18,13 +18,13 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.tsuryo.swipeablerv.SwipeLeftRightCallback
-import java.lang.Exception
 
 class SessionActivity : AppCompatActivity() {
 
     private val listaProdutos: MutableList<Produtos> = mutableListOf()
     private val db: DatabaseReference = FirebaseDatabase.getInstance().reference
     private lateinit var binding: ActivitySessionBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -106,9 +106,8 @@ class SessionActivity : AppCompatActivity() {
 
             listaProdutos.add(produto)
             adapterProduto.notifyItemInserted(listaProdutos.size)
-            if (pref.getBoolean("sound",true)){ //verificando o arq se estiver faz som
+            if (pref.getBoolean("sound",true)) //verificando o arq se estiver faz som
                 mp.start()
-            }
             saveProduct(produto, binding.sessioncode.text.toString())//try pq pode dar timeout
             binding.layoutfora.isVisible = false
             binding.layoutfora.isClickable = false
@@ -129,8 +128,7 @@ class SessionActivity : AppCompatActivity() {
     private fun refreshList(path: String, adapter: AdapterProduto) {
         listaProdutos.clear()
 
-        db.child(path).addListenerForSingleValueEvent(object :
-            ValueEventListener {
+        val valueEventListener = object : ValueEventListener{
             @SuppressLint("NotifyDataSetChanged")
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.hasChildren()) {
@@ -167,7 +165,11 @@ class SessionActivity : AppCompatActivity() {
 
             override fun onCancelled(error: DatabaseError) {
             }
-        })
+
+        }
+
+        db.child(path).addListenerForSingleValueEvent(valueEventListener)
+        db.removeEventListener(valueEventListener)
     }
 
     private fun saveProduct(produtos: Produtos, path: String) {

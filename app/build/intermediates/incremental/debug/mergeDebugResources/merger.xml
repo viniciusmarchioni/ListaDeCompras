@@ -11738,7 +11738,7 @@
         sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string></file><file path="D:\AppCompras\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
+    </string><string name="config">Configurações</string><string name="sobre">Sobre</string><string name="vinicius_marchioni">--Vinicius Marchioni--</string></file><file path="D:\AppCompras\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
         
         
         <item name="android:statusBarColor">@color/tema</item>
@@ -11749,6 +11749,65 @@
         <item name="android:navigationBarColor">@color/tema</item>
         
         
+    </style><style name="layout">
+        <item name="android:background">@color/white</item>
+    </style><style name="editText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+
+    </style><style name="textView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="imageConfig">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">55dp</item>
+    </style><style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="backButton">
+        <item name="android:layout_width">39dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">#00FFFFFF</item>
+        <item name="android:src">@drawable/baseline_arrow_back_24</item>
+    </style><style name="layoutfora">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#88000000</item>
+        <item name="android:clickable">false</item>
+        <item name="android:visibility">invisible</item>
+    </style><style name="textAppbar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="layoutdentro">
+        <item name="android:layout_height">288dp</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+    </style><style name="ViniciusMarchioni">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:text">@string/vinicius_marchioni</item>
+    </style><style name="devTitles">
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
     </style></file><file path="D:\AppCompras\app\src\main\res\values-en\strings.xml" qualifiers="en"><string name="app_name">Shopping list</string><string name="title_activity_session">SessionActivity</string><string name="sessao_ask_text">Already have a session?</string><string name="session_code">Code</string><string name="singIn">Sign In</string><string name="create_text">Create</string><string name="imageDescription">image</string><string name="product_name_ask">Product Name:</string><string name="name_hint">Rice</string><string name="qnt_ask">qty:</string><string name="one">1</string><string name="brand">Brand:</string><string name="brand_hint">Camil\n</string><string name="add">Add</string><string name="edit">Edit</string><string name="delete">Delete</string><string name="copy">Copied!</string><string name="add_notification">Added!</string><string-array name="sujestoes">
 
         <item>Rice</item>
@@ -11906,7 +11965,7 @@
         <item>Condom</item>
         <item>Lubricant</item>
 
-    </string-array></file><file path="D:\AppCompras\app\src\main\res\values-es\strings.xml" qualifiers="es"><string name="app_name">Lista de compras</string><string name="title_activity_session">SessionActivity</string><string name="sessao_ask_text">¿Ya tienes una sesión?</string><string name="session_code">Código</string><string name="singIn">Ingresar</string><string name="create_text">Crear</string><string name="imageDescription">imagen</string><string name="product_name_ask">Nombre del producto:</string><string name="name_hint">Arroz</string><string name="qnt_ask">cant:</string><string name="one">1</string><string name="brand">Marca:</string><string name="brand_hint">Camil\n</string><string name="add">Agregar</string><string name="edit">Editar</string><string name="delete">Borrar</string><string name="copy">¡Copiado!</string><string name="add_notification">¡Añadido!</string><string-array name="sujestoes">
+    </string-array><string name="sobre">--About--</string><string name="config">Settings</string><string name="vinicius_marchioni">--Vinicius Marchioni--</string></file><file path="D:\AppCompras\app\src\main\res\values-es\strings.xml" qualifiers="es"><string name="app_name">Lista de compras</string><string name="title_activity_session">SessionActivity</string><string name="sessao_ask_text">¿Ya tienes una sesión?</string><string name="session_code">Código</string><string name="singIn">Ingresar</string><string name="create_text">Crear</string><string name="imageDescription">imagen</string><string name="product_name_ask">Nombre del producto:</string><string name="name_hint">Arroz</string><string name="qnt_ask">cant:</string><string name="one">1</string><string name="brand">Marca:</string><string name="brand_hint">Camil\n</string><string name="add">Agregar</string><string name="edit">Editar</string><string name="delete">Borrar</string><string name="copy">¡Copiado!</string><string name="add_notification">¡Añadido!</string><string-array name="sujestoes">
 
         <item>Arroz</item>
         <item>Fríjoles</item>
@@ -12063,29 +12122,121 @@
         <item>Preservativo</item>
         <item>Lubricante</item>
 
-    </string-array></file><file path="D:\AppCompras\app\src\main\res\values-land\dimens.xml" qualifiers="land"><dimen name="fab_margin">48dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
+    </string-array><string name="config">Configurações</string><string name="sobre">Acerca</string><string name="vinicius_marchioni">--Vinicius Marchioni--</string></file><file path="D:\AppCompras\app\src\main\res\values-land\dimens.xml" qualifiers="land"><dimen name="fab_margin">48dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
         
         
-        <item name="android:navigationBarColor">@color/tema</item>
         <item name="android:statusBarColor">@color/tema</item>
-        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:navigationBarColor">@color/tema</item>
+
     </style><style name="Base.Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
-        <item name="android:navigationBarColor">@color/tema</item>
         <item name="android:statusBarColor">@color/tema</item>
-        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
-    </style></file><file path="D:\AppCompras\app\src\main\res\values-v23\themes.xml" qualifiers="v23"><style name="Theme.Compras" parent="Base.Theme.Compras">
-        
         <item name="android:navigationBarColor">@color/tema</item>
-        <item name="android:statusBarColor">@color/tema</item>
-        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
-    </style><style name="Base.Theme.Compras" parent="Base.Base.Theme.Compras">
         
-        <item name="android:navigationBarColor">@color/tema</item>
+        
+    </style><style name="layout">
+        <item name="android:background">@color/white</item>
+    </style><style name="editText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+
+    </style><style name="textView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="imageConfig">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">55dp</item>
+    </style><style name="textAppbar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="backButton">
+        <item name="android:layout_width">39dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">#00FFFFFF</item>
+        <item name="android:src">@drawable/baseline_arrow_back_24</item>
+    </style><style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="layoutdentro">
+        <item name="android:layout_height">288dp</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+    </style><style name="layoutfora">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#88000000</item>
+        <item name="android:clickable">false</item>
+        <item name="android:visibility">invisible</item>
+    </style></file><file path="D:\AppCompras\app\src\main\res\values-v23\themes.xml" qualifiers="v23"><style name="Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
         <item name="android:statusBarColor">@color/tema</item>
-        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
-    </style></file><file path="D:\AppCompras\app\src\main\res\values-w1240dp\dimens.xml" qualifiers="w1240dp-v13"><dimen name="fab_margin">200dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-w600dp\dimens.xml" qualifiers="w600dp-v13"><dimen name="fab_margin">48dp</dimen></file><file name="backup_rules" path="D:\AppCompras\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="D:\AppCompras\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"><file path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices\values\values.xml" qualifiers=""><string name="firebase_database_url" translatable="false">https://applista-dbf98-default-rtdb.firebaseio.com</string><string name="gcm_defaultSenderId" translatable="false">898642653121</string><string name="google_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_app_id" translatable="false">1:898642653121:android:31822c0a06d2964f1ac940</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_storage_bucket" translatable="false">applista-dbf98.appspot.com</string><string name="project_id" translatable="false">applista-dbf98</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices" generated-set="res-processDebugGoogleServices$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+        <item name="android:navigationBarColor">@color/tema</item>
+
+    </style><style name="editText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+
+    </style><style name="layout">
+        <item name="android:background">@color/white</item>
+    </style><style name="textView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="Base.Base.Theme.Compras" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/tema</item>
+        <item name="android:navigationBarColor">@color/tema</item>
+        
+        
+    </style><style name="layoutdentro">
+        <item name="android:layout_height">288dp</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+    </style><style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="textAppbar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="backButton">
+        <item name="android:layout_width">39dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">#00FFFFFF</item>
+        <item name="android:src">@drawable/baseline_arrow_back_24</item>
+    </style><style name="layoutfora">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#88000000</item>
+        <item name="android:clickable">false</item>
+        <item name="android:visibility">invisible</item>
+    </style><style name="imageConfig">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">55dp</item>
+    </style></file><file path="D:\AppCompras\app\src\main\res\values-w1240dp\dimens.xml" qualifiers="w1240dp-v13"><dimen name="fab_margin">200dp</dimen></file><file path="D:\AppCompras\app\src\main\res\values-w600dp\dimens.xml" qualifiers="w600dp-v13"><dimen name="fab_margin">48dp</dimen></file><file name="backup_rules" path="D:\AppCompras\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="D:\AppCompras\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/><file name="activity_about" path="D:\AppCompras\app\src\main\res\layout\activity_about.xml" qualifiers="" type="layout"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AppCompras\app\build\generated\res\resValues\debug"/><source path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices"><file path="D:\AppCompras\app\build\generated\res\processDebugGoogleServices\values\values.xml" qualifiers=""><string name="firebase_database_url" translatable="false">https://applista-dbf98-default-rtdb.firebaseio.com</string><string name="gcm_defaultSenderId" translatable="false">898642653121</string><string name="google_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_app_id" translatable="false">1:898642653121:android:31822c0a06d2964f1ac940</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string><string name="google_storage_bucket" translatable="false">applista-dbf98.appspot.com</string><string name="project_id" translatable="false">applista-dbf98</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices" generated-set="res-processDebugGoogleServices$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>

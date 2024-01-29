@@ -52,7 +52,7 @@ class ConfigActivity : AppCompatActivity() {
         }
 
         about.setOnClickListener {
-
+            startActivity(Intent(this, AboutActivity::class.java))
         }
 
 

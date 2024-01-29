@@ -3409,6 +3409,7 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id google
 id graph
 id graph_wrap
 id group_divider
@@ -3732,6 +3733,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id zapsplat
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3848,6 +3850,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_config
 layout activity_main
 layout activity_session
@@ -4006,6 +4009,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string config
 string copy
 string create_text
 string delete
@@ -4152,9 +4156,11 @@ string session_code
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string singIn
+string sobre
 string status_bar_notification_info_overflow
 string title_activity_help
 string title_activity_session
+string vinicius_marchioni
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4702,7 +4708,6 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
-style Theme_Compras
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light
@@ -4897,6 +4902,7 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style ViniciusMarchioni
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -5274,6 +5280,16 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style backButton
+style button
+style devTitles
+style editText
+style imageConfig
+style layout
+style layoutdentro
+style layoutfora
+style textAppbar
+style textView
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
