@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.compras.Adapter.AdapterProduto
 import com.example.compras.databinding.ActivitySessionBinding
@@ -19,12 +20,14 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.tsuryo.swipeablerv.SwipeLeftRightCallback
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class SessionActivity : AppCompatActivity() {
 
     private val listaProdutos: MutableList<Produtos> = mutableListOf()
     private val db: DatabaseReference = FirebaseDatabase.getInstance().reference
     private lateinit var binding: ActivitySessionBinding
+    var response: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -111,6 +114,13 @@ class SessionActivity : AppCompatActivity() {
             if (pref.getBoolean("sound", true)) //verificando o arq se estiver faz som
                 mp.start()
             saveProduct(produto, binding.sessioncode.text.toString())//try pq pode dar timeout
+
+            lifecycleScope.launch {
+                timer()
+                if(!response)
+                    Toast.makeText(this@SessionActivity, getString(R.string.connectionFail), Toast.LENGTH_LONG).show()
+            }
+
             binding.layoutfora.isVisible = false
             binding.layoutfora.isClickable = false
             binding.editnome.text.clear()
@@ -175,10 +185,16 @@ class SessionActivity : AppCompatActivity() {
         db.removeEventListener(valueEventListener)
     }
 
+
+    private suspend fun timer() {
+        delay(5000L)
+    }
+
     private fun saveProduct(produtos: Produtos, path: String) {
         db.child(path).child(produtos.nome.toString()).setValue(produtos)
             .addOnCompleteListener {
                 Toast.makeText(this, getString(R.string.add_notification), Toast.LENGTH_LONG).show()
+                response = true
             }
             .addOnFailureListener {
                 Toast.makeText(this, getString(R.string.connectionFail), Toast.LENGTH_LONG).show()
