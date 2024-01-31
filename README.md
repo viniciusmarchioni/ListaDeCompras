@@ -4,7 +4,7 @@ A classe MainActivity é a atividade principal da aplicação que gerencia a ent
 Métodos Principais:
 onCreate: Método responsável por inicializar a atividade, definir os elementos da interface do usuário e configurar os ouvintes de clique.
 
-timer: Método suspenso que implementa um temporizador para remoção de um ouvinte de eventos do Firebase após 5 segundos.
+timer: Função assincrona que implementa um temporizador para remoção de um ouvinte de eventos do Firebase após 5 segundos, fiz devido a falta de existencia de um timeout na documentação do firebase.
 
 generateCode: Método que gera um código aleatório de 10 caracteres para uma nova sessão.
 
