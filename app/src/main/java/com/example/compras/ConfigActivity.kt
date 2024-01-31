@@ -33,19 +33,19 @@ class ConfigActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
         }
 
-        notificationSwitch.setOnCheckedChangeListener { buttonView, isChecked ->
+        notificationSwitch.setOnCheckedChangeListener { _, isChecked ->
             val editor: SharedPreferences.Editor = pref.edit()
             editor.putBoolean("notification", isChecked)
             editor.apply()
 
         }
 
-        vibrationSwitch.setOnCheckedChangeListener { buttonView, isChecked ->
+        vibrationSwitch.setOnCheckedChangeListener { _, isChecked ->
             val editor: SharedPreferences.Editor = pref.edit()
             editor.putBoolean("vibration", isChecked)
             editor.apply()
         }
-        soundSwitch.setOnCheckedChangeListener { buttonView, isChecked ->
+        soundSwitch.setOnCheckedChangeListener { _, isChecked ->
             val editor: SharedPreferences.Editor = pref.edit()
             editor.putBoolean("sound", isChecked)
             editor.apply()

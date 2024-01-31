@@ -3169,7 +3169,6 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable music_note_24
-drawable music_off_24
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3184,7 +3183,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notifications_24
-drawable notifications_off_24
 drawable notify_panel_notification_icon_bg
 drawable rounded_corners_night
 drawable settings_40

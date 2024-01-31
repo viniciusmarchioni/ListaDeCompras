@@ -19,9 +19,7 @@ drawable help_40
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable music_note_24
-drawable music_off_24
 drawable notifications_24
-drawable notifications_off_24
 drawable rounded_corners_night
 drawable settings_40
 drawable settings_48

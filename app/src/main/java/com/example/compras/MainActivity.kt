@@ -6,7 +6,6 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
@@ -22,7 +21,6 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import androidx.lifecycle.lifecycleScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -60,23 +58,22 @@ class MainActivity : AppCompatActivity() {
 
         buttonEntrar.setOnClickListener {
             it.isClickable = false
-            buttonCriar.isClickable = false
+            response = false
+
             if (editCode.text.isEmpty()) {
                 YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                 it.isClickable = true
-                buttonCriar.isClickable = true
                 return@setOnClickListener
             } else if (editCode.text.length < 10) {
                 YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                 it.isClickable = true
-                buttonCriar.isClickable = true
                 return@setOnClickListener
             }
 
             // Chame a função para verificar a existência da chave
             val chaveRef = databaseReference.child(editCode.text.toString())
 
-            val valueEventListener = object : ValueEventListener {
+            val valueEventListener: ValueEventListener = object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()) {
                         val intent = Intent(this@MainActivity, SessionActivity::class.java)
@@ -105,15 +102,13 @@ class MainActivity : AppCompatActivity() {
 
             }
 
-            chaveRef.addListenerForSingleValueEvent(valueEventListener)
-            chaveRef.removeEventListener(valueEventListener)
+            chaveRef.addValueEventListener(valueEventListener)
 
             lifecycleScope.launch {
                 timer(valueEventListener, chaveRef)
                 if (!response) {
                     YoYo.with(Techniques.Shake).duration(700).playOn(editCode)
                     it.isClickable = true
-                    buttonCriar.isClickable = true
                     title.text = getString(R.string.connectionFail)
                 }
             }

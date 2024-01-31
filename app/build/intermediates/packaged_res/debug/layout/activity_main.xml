@@ -40,7 +40,8 @@
         android:background="#00FFFFFF"
         android:clickable="false"
         android:src="@drawable/share"
-        android:visibility="invisible" />
+        android:visibility="invisible"
+        android:contentDescription="@string/imageDescription" />
 
     <EditText
         android:id="@+id/codigo"

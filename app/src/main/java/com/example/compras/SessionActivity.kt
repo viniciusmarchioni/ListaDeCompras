@@ -18,6 +18,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.tsuryo.swipeablerv.SwipeLeftRightCallback
+import kotlinx.coroutines.delay
 
 class SessionActivity : AppCompatActivity() {
 
@@ -180,7 +181,7 @@ class SessionActivity : AppCompatActivity() {
                 Toast.makeText(this, getString(R.string.add_notification), Toast.LENGTH_LONG).show()
             }
             .addOnFailureListener {
-
+                Toast.makeText(this, getString(R.string.connectionFail), Toast.LENGTH_LONG).show()
             }
     }
 }
