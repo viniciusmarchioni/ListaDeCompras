@@ -27,7 +27,7 @@ class SessionActivity : AppCompatActivity() {
     private val listaProdutos: MutableList<Produtos> = mutableListOf()
     private val db: DatabaseReference = FirebaseDatabase.getInstance().reference
     private lateinit var binding: ActivitySessionBinding
-    var response: Boolean = false
+    private var response: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -200,4 +200,7 @@ class SessionActivity : AppCompatActivity() {
                 Toast.makeText(this, getString(R.string.connectionFail), Toast.LENGTH_LONG).show()
             }
     }
+
+
+
 }

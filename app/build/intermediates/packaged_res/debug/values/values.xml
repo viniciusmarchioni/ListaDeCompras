@@ -161,6 +161,7 @@
     <color name="black">#FF000000</color>
     <color name="blue">#3999E3</color>
     <color name="grey">#858585</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
     <color name="red">#DD1B1B</color>
     <color name="tema">#FFAD33</color>
     <color name="white">#FFFFFFFF</color>
@@ -182,6 +183,7 @@
     <string name="google_app_id" translatable="false">1:898642653121:android:31822c0a06d2964f1ac940</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnLVROQTJoUIn7EL1clttE7hup48TaF2Y</string>
     <string name="google_storage_bucket" translatable="false">applista-dbf98.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="imageDescription">image</string>
     <string name="name_hint">Arroz</string>
     <string name="one">1</string>
@@ -246,6 +248,8 @@
     <style name="imageConfig">
         <item name="android:layout_height">65dp</item>
         <item name="android:layout_width">55dp</item>
+        <item name="android:thumbTint">@color/tema</item>
+        <item name="android:trackTint">@color/tema</item>
     </style>
     <style name="layout">
         <item name="android:background">@color/white</item>

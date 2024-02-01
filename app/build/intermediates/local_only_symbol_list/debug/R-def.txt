@@ -4,6 +4,7 @@ array sujestoes
 color black
 color blue
 color grey
+color ic_launcher_background
 color red
 color tema
 color white
@@ -16,8 +17,6 @@ drawable delete_24
 drawable edit_24
 drawable edittext_rounded_corners
 drawable help_40
-drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable music_note_24
 drawable notifications_24
 drawable rounded_corners_night
@@ -58,6 +57,7 @@ id textmarca
 id textnome
 id textqnt
 id textquantidade
+id vibration
 id vibrationSwitch
 id zapsplat
 layout activity_about
@@ -66,6 +66,7 @@ layout activity_main
 layout activity_session
 layout holder_recycle_layout
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw click
 string add
@@ -85,6 +86,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string imageDescription
 string name_hint
 string one
