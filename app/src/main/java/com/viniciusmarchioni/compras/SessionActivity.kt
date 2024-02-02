@@ -1,4 +1,4 @@
-package com.example.compras
+package com.viniciusmarchioni.compras
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,8 +11,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.compras.Adapter.AdapterProduto
+import com.example.compras.R
 import com.example.compras.databinding.ActivitySessionBinding
+import com.viniciusmarchioni.compras.Adapter.AdapterProduto
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference

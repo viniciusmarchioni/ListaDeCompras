@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tema"
-    tools:context=".ConfigActivity">
+    tools:context="com.viniciusmarchioni.compras.ConfigActivity">
 
     <LinearLayout
         android:id="@+id/appbar"

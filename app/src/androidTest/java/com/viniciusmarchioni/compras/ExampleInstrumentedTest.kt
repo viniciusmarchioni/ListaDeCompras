@@ -1,4 +1,4 @@
-package com.example.compras
+package com.viniciusmarchioni.compras
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

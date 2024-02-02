@@ -5,7 +5,7 @@
     style="@style/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SessionActivity">
+    tools:context="com.viniciusmarchioni.compras.SessionActivity">
 
     <LinearLayout
         android:id="@+id/appbar"

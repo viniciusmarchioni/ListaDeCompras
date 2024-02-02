@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.compras"
+        applicationId = "com.viniciusmarchioni.compras"
         minSdk = 28
         targetSdk = 33
         versionCode = 1

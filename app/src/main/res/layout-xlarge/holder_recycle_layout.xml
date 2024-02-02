@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        style="@style/produtoPlaceHolder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="97dp"
+            android:layout_height="96dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/cart_48" />
+
+        <TextView
+            android:id="@+id/textnome"
+            style="@style/textPlaceHolder"
+            android:textSize="40sp"
+            android:layout_toEndOf="@+id/image"
+            android:text="XXXXX" />
+
+        <TextView
+            android:id="@+id/textqnt"
+            style="@style/textPlaceHolder2"
+            android:textSize="30sp"
+            android:layout_below="@+id/textnome"
+            android:layout_toEndOf="@+id/image"
+            android:text="400" />
+
+        <TextView
+            android:id="@+id/notation"
+            style="@style/textPlaceHolder2"
+            android:layout_below="@+id/textnome"
+            android:textSize="30sp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textqnt"
+            android:text="Unidades" />
+
+        <TextView
+            android:id="@+id/textmarca"
+            style="@style/textPlaceHolder2"
+            android:textSize="30sp"
+            android:layout_below="@+id/textqnt"
+            android:layout_toEndOf="@+id/image"
+            android:text="Marca: X"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

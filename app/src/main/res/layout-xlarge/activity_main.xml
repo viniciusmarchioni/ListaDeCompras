@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:theme="@style/Base.Theme.Compras"
+    tools:context="com.viniciusmarchioni.compras.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:background="@color/tema"
+        android:contentDescription="@string/imageDescription"
+        android:src="@drawable/settings_100" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/codigo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:clickable="false"
+        android:text="@string/sessao_ask_text"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/compartilhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/codigo"
+        android:layout_marginBottom="40dp"
+        android:layout_toEndOf="@+id/text"
+        android:background="#00FFFFFF"
+        android:clickable="false"
+        android:src="@drawable/share_48"
+        android:visibility="invisible"
+        android:contentDescription="@string/imageDescription" />
+
+    <EditText
+        android:id="@+id/codigo"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        style="@style/editText"
+        android:layout_centerInParent="true"
+        android:autofillHints=""
+        android:hint="@string/session_code"
+        android:inputType="textCapCharacters"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:minWidth="120dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        style="@style/button"
+        android:layout_below="@+id/codigo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/singIn"
+        android:textColor="@color/tema" />
+
+    <Button
+        android:id="@+id/criar"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        style="@style/button"
+        android:layout_below="@+id/entrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/create_text"
+        android:textColor="@color/tema" />
+
+</RelativeLayout>

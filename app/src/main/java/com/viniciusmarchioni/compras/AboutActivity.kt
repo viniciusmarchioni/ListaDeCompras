@@ -1,4 +1,4 @@
-package com.example.compras
+package com.viniciusmarchioni.compras
 
 import android.content.Intent
 import android.net.Uri
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
+import com.example.compras.R
 
 class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

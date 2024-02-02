@@ -1,4 +1,4 @@
-package com.example.compras
+package com.viniciusmarchioni.compras
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.widget.SwitchCompat
+import com.example.compras.R
 
 class ConfigActivity : AppCompatActivity() {
 

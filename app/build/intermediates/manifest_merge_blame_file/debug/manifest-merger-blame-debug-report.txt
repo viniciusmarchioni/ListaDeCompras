@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.compras"
+3    package="com.viniciusmarchioni.compras"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -38,12 +38,12 @@
 22
 23    <permission
 23-->[androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-24        android:name="com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24        android:name="com.viniciusmarchioni.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 24-->[androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 25        android:protectionLevel="signature" />
 25-->[androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 26
-27    <uses-permission android:name="com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27    <uses-permission android:name="com.viniciusmarchioni.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 27-->[androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 27-->[androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 28
@@ -72,22 +72,22 @@
 41-->D:\AppCompras\app\src\main\AndroidManifest.xml:15:9-50
 42        <activity
 42-->D:\AppCompras\app\src\main\AndroidManifest.xml:17:9-19:40
-43            android:name="com.example.compras.AboutActivity"
-43-->D:\AppCompras\app\src\main\AndroidManifest.xml:18:13-42
+43            android:name="com.viniciusmarchioni.compras.AboutActivity"
+43-->D:\AppCompras\app\src\main\AndroidManifest.xml:18:13-71
 44            android:exported="false" />
 44-->D:\AppCompras\app\src\main\AndroidManifest.xml:19:13-37
 45        <activity
 45-->D:\AppCompras\app\src\main\AndroidManifest.xml:20:9-23:57
-46            android:name="com.example.compras.ConfigActivity"
-46-->D:\AppCompras\app\src\main\AndroidManifest.xml:21:13-43
+46            android:name="com.viniciusmarchioni.compras.ConfigActivity"
+46-->D:\AppCompras\app\src\main\AndroidManifest.xml:21:13-72
 47            android:exported="false"
 47-->D:\AppCompras\app\src\main\AndroidManifest.xml:22:13-37
 48            android:theme="@style/Base.Theme.Compras" />
 48-->D:\AppCompras\app\src\main\AndroidManifest.xml:23:13-54
 49        <activity
 49-->D:\AppCompras\app\src\main\AndroidManifest.xml:24:9-29:55
-50            android:name="com.example.compras.SessionActivity"
-50-->D:\AppCompras\app\src\main\AndroidManifest.xml:25:13-44
+50            android:name="com.viniciusmarchioni.compras.SessionActivity"
+50-->D:\AppCompras\app\src\main\AndroidManifest.xml:25:13-73
 51            android:exported="false"
 51-->D:\AppCompras\app\src\main\AndroidManifest.xml:26:13-37
 52            android:label="@string/title_activity_session"
@@ -98,8 +98,8 @@
 54-->D:\AppCompras\app\src\main\AndroidManifest.xml:29:13-52
 55        <activity
 55-->D:\AppCompras\app\src\main\AndroidManifest.xml:30:9-39:20
-56            android:name="com.example.compras.MainActivity"
-56-->D:\AppCompras\app\src\main\AndroidManifest.xml:31:13-41
+56            android:name="com.viniciusmarchioni.compras.MainActivity"
+56-->D:\AppCompras\app\src\main\AndroidManifest.xml:31:13-70
 57            android:exported="true"
 57-->D:\AppCompras\app\src\main\AndroidManifest.xml:32:13-36
 58            android:theme="@style/Base.Theme.Compras" >
@@ -224,7 +224,7 @@
 122-->[com.google.firebase:firebase-common:20.4.2] C:\Users\vinim\.gradle\caches\transforms-3\64da298d58f51c323e9b967e5fb60b61\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
 123            android:name="com.google.firebase.provider.FirebaseInitProvider"
 123-->[com.google.firebase:firebase-common:20.4.2] C:\Users\vinim\.gradle\caches\transforms-3\64da298d58f51c323e9b967e5fb60b61\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-124            android:authorities="com.example.compras.firebaseinitprovider"
+124            android:authorities="com.viniciusmarchioni.compras.firebaseinitprovider"
 124-->[com.google.firebase:firebase-common:20.4.2] C:\Users\vinim\.gradle\caches\transforms-3\64da298d58f51c323e9b967e5fb60b61\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
 125            android:directBootAware="true"
 125-->[com.google.firebase:firebase-common:20.4.2] C:\Users\vinim\.gradle\caches\transforms-3\64da298d58f51c323e9b967e5fb60b61\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
@@ -244,7 +244,7 @@
 133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 134            android:name="androidx.startup.InitializationProvider"
 134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-135            android:authorities="com.example.compras.androidx-startup"
+135            android:authorities="com.viniciusmarchioni.compras.androidx-startup"
 135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 136            android:exported="false" >
 136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinim\.gradle\caches\transforms-3\30f53d96a8f68ce6b972669174278154\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37

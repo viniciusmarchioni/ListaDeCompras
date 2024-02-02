@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viniciusmarchioni.compras.SessionActivity">
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/tema">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:src="@drawable/arrow_back_62"
+            style="@style/backButton"
+            android:contentDescription="@string/imageDescription" />
+
+        <TextView
+            android:id="@+id/sessioncode"
+            style="@style/textAppbar"
+            android:textSize="40sp"/>
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar">
+
+        <com.tsuryo.swipeablerv.SwipeableRecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"
+            app:leftBgColor="@color/red"
+            app:leftImage="@drawable/delete_24"
+            app:leftText="@string/delete"
+            app:rightBgColor="@color/blue"
+            app:rightImage="@drawable/edit_24"
+            app:rightText="@string/edit"
+            app:textColor="@android:color/white"
+            app:textSize="20sp" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/tema"
+        android:clickable="true"
+        android:contentDescription="@string/imageDescription"
+        app:srcCompat="@drawable/baseline_add_24" />
+
+    <RelativeLayout
+        android:id="@+id/layoutfora"
+        style="@style/layoutfora">
+
+        <RelativeLayout
+            android:id="@+id/layoutdentro"
+            style="@style/layoutdentro">
+
+            <TextView
+                style="@style/textView"
+                android:layout_above="@+id/editnome"
+                android:text="@string/product_name_ask" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editnome"
+                style="@style/editText"
+                android:layout_above="@+id/textquantidade"
+                android:hint="@string/name_hint"
+                android:inputType="textCapWords"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:minWidth="150dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textquantidade"
+                style="@style/textView"
+                android:layout_above="@+id/editqnt"
+                android:text="@string/qnt_ask" />
+
+            <EditText
+                android:id="@+id/editqnt"
+                style="@style/editText"
+                android:layout_centerVertical="true"
+                android:autofillHints=""
+                android:hint="@string/one"
+                android:inputType="number"
+                android:maxLength="5"
+                android:minWidth="50dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/editqnt" />
+
+            <TextView
+                android:id="@+id/textmarca"
+                style="@style/textView"
+                android:layout_below="@+id/editqnt"
+                android:text="@string/brand" />
+
+            <EditText
+                android:id="@+id/editmarca"
+                style="@style/editText"
+                android:layout_below="@+id/textmarca"
+                android:autofillHints=""
+                android:hint="@string/brand_hint"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                android:minWidth="150dp" />
+
+            <Button
+                android:id="@+id/addbutton"
+                style="@style/button"
+                android:layout_below="@+id/editmarca"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/tema"
+                android:soundEffectsEnabled="false"
+                android:text="@string/add"
+                android:textColor="@color/black" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

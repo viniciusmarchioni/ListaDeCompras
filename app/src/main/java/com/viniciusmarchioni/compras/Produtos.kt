@@ -1,4 +1,4 @@
-package com.example.compras
+package com.viniciusmarchioni.compras
 
 data class Produtos(
     var nome: String? = "",

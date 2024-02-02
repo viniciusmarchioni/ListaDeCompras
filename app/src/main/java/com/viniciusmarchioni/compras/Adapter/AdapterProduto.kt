@@ -1,4 +1,4 @@
-package com.example.compras.Adapter
+package com.viniciusmarchioni.compras.Adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,9 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.compras.Produtos
 import com.example.compras.R
-
+import com.viniciusmarchioni.compras.Produtos
 class AdapterProduto(private val context: Context, private val produtos: MutableList<Produtos>) :
     RecyclerView.Adapter<AdapterProduto.ProdutoViewHolder>() {
 

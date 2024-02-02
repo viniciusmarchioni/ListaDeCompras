@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.compras"
+    package="com.viniciusmarchioni.compras"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -21,10 +21,10 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
-        android:name="com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.viniciusmarchioni.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.viniciusmarchioni.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -40,20 +40,20 @@
         android:testOnly="true"
         android:theme="@style/Base.Theme.Compras" >
         <activity
-            android:name="com.example.compras.AboutActivity"
+            android:name="com.viniciusmarchioni.compras.AboutActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.compras.ConfigActivity"
+            android:name="com.viniciusmarchioni.compras.ConfigActivity"
             android:exported="false"
             android:theme="@style/Base.Theme.Compras" />
         <activity
-            android:name="com.example.compras.SessionActivity"
+            android:name="com.viniciusmarchioni.compras.SessionActivity"
             android:exported="false"
             android:label="@string/title_activity_session"
             android:theme="@style/Base.Theme.Compras"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.example.compras.MainActivity"
+            android:name="com.viniciusmarchioni.compras.MainActivity"
             android:exported="true"
             android:theme="@style/Base.Theme.Compras" >
             <intent-filter>
@@ -121,7 +121,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.compras.firebaseinitprovider"
+            android:authorities="com.viniciusmarchioni.compras.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -132,7 +132,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.compras.androidx-startup"
+            android:authorities="com.viniciusmarchioni.compras.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

@@ -1,4 +1,4 @@
-package com.example.compras
+package com.viniciusmarchioni.compras
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -21,6 +21,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import androidx.lifecycle.lifecycleScope
+import com.example.compras.R
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

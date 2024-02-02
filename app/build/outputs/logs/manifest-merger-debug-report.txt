@@ -185,21 +185,21 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vinim\.gradle\cach
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:15:9-50
 	android:dataExtractionRules
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.compras.AboutActivity
+activity#com.viniciusmarchioni.compras.AboutActivity
 ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:18:13-42
-activity#com.example.compras.ConfigActivity
+		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:18:13-71
+activity#com.viniciusmarchioni.compras.ConfigActivity
 ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:20:9-23:57
 	android:exported
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:22:13-37
 	android:theme
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:23:13-54
 	android:name
-		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:21:13-43
-activity#com.example.compras.SessionActivity
+		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:21:13-72
+activity#com.viniciusmarchioni.compras.SessionActivity
 ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:24:9-29:55
 	android:label
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:27:13-59
@@ -210,15 +210,15 @@ ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:24:9-29:55
 	android:theme
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:28:13-54
 	android:name
-		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:25:13-44
-activity#com.example.compras.MainActivity
+		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:25:13-73
+activity#com.viniciusmarchioni.compras.MainActivity
 ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:30:9-39:20
 	android:exported
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:32:13-36
 	android:theme
 		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:33:13-54
 	android:name
-		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:31:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\AppCompras\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
@@ -639,7 +639,7 @@ ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-
 		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-permission#com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.viniciusmarchioni.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
@@ -649,7 +649,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.viniciusmarchioni.compras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\vinim\.gradle\caches\transforms-3\c0de1175b028ec7c82b120af21f70035\transformed\core-1.12.0\AndroidManifest.xml:26:22-94

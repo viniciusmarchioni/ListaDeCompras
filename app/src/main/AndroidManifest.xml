@@ -15,20 +15,20 @@
         android:theme="@style/Base.Theme.Compras"
         tools:targetApi="31">
         <activity
-            android:name=".AboutActivity"
+            android:name="com.viniciusmarchioni.compras.AboutActivity"
             android:exported="false" />
         <activity
-            android:name=".ConfigActivity"
+            android:name="com.viniciusmarchioni.compras.ConfigActivity"
             android:exported="false"
             android:theme="@style/Base.Theme.Compras" />
         <activity
-            android:name=".SessionActivity"
+            android:name="com.viniciusmarchioni.compras.SessionActivity"
             android:exported="false"
             android:label="@string/title_activity_session"
             android:theme="@style/Base.Theme.Compras"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.viniciusmarchioni.compras.MainActivity"
             android:exported="true"
             android:theme="@style/Base.Theme.Compras">
             <intent-filter>
