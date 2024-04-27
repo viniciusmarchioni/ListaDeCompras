@@ -11,8 +11,9 @@ sessões são compartilhaveis então você pode mandar o mesmo id de sua sessão
 Sessões são automaticamente excluidas caso saia e não haja nada em sua lista.
 
 ## Criando uma sessão
-![Screenshot_20240427_145159](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/dd3ba6d2-d12e-43ee-981a-a5bdfd270e6e)
-![Screenshot_20240427_145247](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/e5381a1f-180a-420b-a540-afbd758a3103)
+![Screenshot_20240427_145247](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/f5af5312-0bf1-4071-8fb7-55dd017bb829)
+![Screenshot_20240427_145159](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/690f1616-e4ab-4556-a9b8-46bce9b91f4d)
+
 
 ## Adicionando itens
-![Screenshot_20240427_145422](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/ea21bc4c-e6b1-447f-b3d6-dee68acf1b15)
+![Screenshot_20240427_145422](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/a66fe828-22da-4cb0-a0a9-83a14d96273c)
