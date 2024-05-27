@@ -4,7 +4,6 @@ Um projeto feito com Firebase e Android SDK.
 
 ## Começando
 
-Por enquanto você pode baixar o APK aqui mesmo no git por este <a href='https://github.com/viniciusmarchioni/ListaDeCompras/blob/master/apk/app-debug.apk'>link</a><br>
 <a href="https://play.google.com/store/apps/details?id=com.viniciusmarchioni.compras">![en_badge_web_generic](https://github.com/viniciusmarchioni/ListaDeCompras/assets/85034259/a3097ca7-1522-451a-9345-879f6dc5aba8)</a>
 <br>
 <br>
